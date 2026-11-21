@@ -154,6 +154,9 @@ ok "admin web $ORIGIN$APP_PATH, shop $ORIGIN/bpe-shop, sign-in $ORIGIN/bpe-keycl
 # ---- 4. Secrets: made once on this machine, kept in .env (mode 600), never printed. ------------------------------------------
 step 4/7 "Secrets"
 made=0
+# Whether the demo password was set before this run (by the owner, or by an earlier install).
+password_given=no
+[ -n "$(kept TEST_USER_PASSWORD)" ] && password_given=yes
 for key in DB_OWNER_PASSWORD KEYCLOAK_ADMIN_PASSWORD TEST_USER_PASSWORD PROMO_ADMINISTRATION_CLIENT_SECRET PROMO_SEED_CLIENT_SECRET \
            SVC_PRICING_ENGINE_PASSWORD SVC_PROMOTION_AUTHORING_PASSWORD SVC_CATALOG_PASSWORD SVC_ADMINISTRATION_PASSWORD SVC_AI_ASSIST_PASSWORD; do
   if [ -z "$(kept "$key")" ]; then
@@ -195,7 +198,11 @@ ok "all parts healthy, demo data in"
 step 7/7 "Ready"
 printf '\n  Admin web   %s%s%s%s\n  Storefront  %s/bpe-shop\n  Sign-in     %s/bpe-keycloak\n' "$B" "$ORIGIN" "$APP_PATH" "$N" "$ORIGIN" "$ORIGIN"
 printf '\n  Sign in as mortiz (merchandiser), dpatel (approver), rgomez (site admin), areed (super admin) or au1 (auditor).\n'
-printf '  The password is made for this installation only. Read it with:\n    grep ^TEST_USER_PASSWORD= %s | cut -d= -f2\n' "$envf"
+if [ "$password_given" = yes ]; then
+  printf '  The password is the one already set in %s (kept, not changed). Read it with:\n    grep ^TEST_USER_PASSWORD= %s | cut -d= -f2\n' "$envf" "$envf"
+else
+  printf '  The password was made at random for this installation. Read it with:\n    grep ^TEST_USER_PASSWORD= %s | cut -d= -f2\n' "$envf"
+fi
 printf '  Stop: cd %s && docker compose down    (add -v to wipe the demo data)\n' "$HOME_DIR"
 if ! $local_run; then
   cat <<NGINX

@@ -200,10 +200,11 @@ printf '  Stop: cd %s && docker compose down    (add -v to wipe the demo data)\n
 if ! $local_run; then
   cat <<NGINX
 
-  This server's HTTPS web proxy (nginx) must pass the /bpe paths to the stack. Inside the server block for $host,
-  before any other regular-expression location that could match /bpe:
+  This server's HTTPS web proxy (nginx) must pass the /bpe paths to the stack. Add this inside the server block for
+  $host (or in a file that block includes). One prefix covers /bpe, /bpe-shop, /bpe-keycloak and /bpe-api; ^~ makes
+  it win over a catch-all "location ^~ /" and over regular-expression locations:
 
-    location ~ ^/bpe(-shop|-keycloak|-api)?(/|\$) {
+    location ^~ /bpe {
         proxy_pass http://127.0.0.1:$BPE_PORT;
         proxy_http_version 1.1;
         proxy_set_header Host \$host;

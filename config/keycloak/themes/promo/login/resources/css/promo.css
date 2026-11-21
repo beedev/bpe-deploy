@@ -1,0 +1,60 @@
+/*
+ * The Nov19 sign-in page (prototype styles.css "login-*" rules and tokens), dressing Keycloak's own form classes.
+ * Font: what the prototype renders (Helvetica Neue; Bharath 2026-11-20 "go with prototype font"); Bebas Neue ships with the
+ * theme for the word mark. Nothing is loaded from another host.
+ */
+@font-face { font-family: "Bebas Neue"; font-weight: 400; font-display: swap; src: url("../fonts/bebas-neue-latin-400-normal.woff2") format("woff2"); }
+
+:root {
+  --text: #1a1a1a; --muted: #6b6b6b; --input-border: #8a8a8a; --yellow: #fbd005; --red: #c4161b; --green: #406034;
+  --chip-red: #fbe9e9; --chip-green: #eaf2e6; --radius: 4px; --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body.promo-login { margin: 0; height: 100%; background: #EFEEE7; color: var(--text); font: 400 14px/20px var(--font); }
+body.promo-login::before { content: none; }
+
+.login-split { display: flex; min-height: 100vh; }
+.login-image { flex: 1; background: url("../img/store-bg.jpg") center / cover no-repeat; }
+.login-form-side { width: 46%; min-width: 520px; flex: none; background: #EFEEE7; display: flex; align-items: center; justify-content: center; padding: 32px; box-sizing: border-box; }
+.login-form-wrap { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 24px; }
+.login-brand { display: flex; align-items: center; gap: 12px; justify-content: center; margin-bottom: 16px; }
+.login-logo-img { height: 120px; width: auto; }
+.login-brand-name { font-family: "Bebas Neue", var(--font); font-size: 40px; font-weight: 400; color: #3D472C; }
+
+/* Keycloak's card and header, flattened into the prototype's plain form column. */
+.promo-card, .promo-card #kc-content, .promo-card #kc-content-wrapper { background: transparent; box-shadow: none; padding: 0; border: 0; }
+.promo-card #kc-page-title { font: 600 16px/24px var(--font); color: var(--text); text-align: left; margin: 0 0 16px; }
+.promo-card label, .promo-card .pf-c-form__label { font: 500 14px/20px var(--font); color: var(--text); }
+.promo-card .pf-c-form__group, .promo-card .form-group { margin-bottom: 16px; }
+
+/* Fields: 50 px, the prototype's input border and background. */
+.promo-card input[type=text], .promo-card input[type=password], .promo-card input[type=email], .promo-card .pf-c-form-control {
+  height: 50px; width: 100%; box-sizing: border-box; padding: 0 12px; border: 1px solid var(--input-border); border-radius: var(--radius);
+  background: #EFEEE7; color: var(--text); font: 400 14px/20px var(--font); }
+.promo-card .pf-c-form-control:focus, .promo-card input:focus { outline: 2px solid var(--green); outline-offset: 2px; border-color: var(--input-border); }
+.promo-card .pf-c-input-group { display: flex; }
+.promo-card .pf-c-input-group .pf-c-button { height: 50px; background: #EFEEE7; border: 1px solid var(--input-border); border-left: 0; color: var(--muted); }
+
+/* The yellow LOGIN button (DESIGN.md primary: yellow, uppercase, 600). */
+.promo-card input.promo-primary, .promo-card .pf-c-button.pf-m-primary, .promo-card #kc-login {
+  width: 100%; height: 50px; margin-top: 12px; border: 0; border-radius: var(--radius); background: var(--yellow); color: #000;
+  font: 600 15px/20px var(--font); text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; }
+.promo-card #kc-login:hover { filter: brightness(0.94); }
+.promo-card #kc-login:focus-visible { outline: none; box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--green); }
+
+/* Messages in the prototype's alert colours, with words, never colour alone. */
+.promo-card .pf-c-alert, .promo-card .alert-error, .promo-card .alert-success, .promo-card .alert-warning, .promo-card .alert-info {
+  border: 0; border-radius: 2px; padding: 6px 12px; margin-bottom: 16px; font: 400 13px/16px var(--font); box-shadow: none; }
+.promo-card .alert-error, .promo-card .pf-m-danger { background: var(--chip-red); border-left: 3px solid var(--red); }
+.promo-card .alert-success { background: var(--chip-green); }
+.promo-card #input-error, .promo-card .pf-c-form__helper-text.pf-m-error { color: var(--red); font-size: 12px; }
+.promo-card a { color: var(--green); font-weight: 600; font-size: 13px; text-decoration: none; }
+.promo-card a:hover { text-decoration: underline; }
+#kc-info, #kc-info-wrapper { background: transparent; padding: 0; border: 0; }
+
+@media (max-width: 1100px) {
+  .login-image { display: none; }
+  .login-form-side { width: 100%; min-width: 0; }
+}
+/* The prototype's sign-in has no heading; Keycloak's stays for screen readers only. */
+.promo-card #kc-page-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; margin: 0; }

@@ -1,0 +1,344 @@
+{
+  "realm": "promo",
+  "enabled": true,
+  "sslRequired": "external",
+  "registrationAllowed": false,
+  "loginWithEmailAllowed": false,
+  "duplicateEmailsAllowed": false,
+  "bruteForceProtected": false,
+  "accessTokenLifespan": 900,
+  "ssoSessionIdleTimeout": 1800,
+  "ssoSessionMaxLifespan": 36000,
+  "eventsEnabled": true,
+  "eventsExpiration": 7776000,
+  "enabledEventTypes": [
+    "LOGIN",
+    "UPDATE_PROFILE"
+  ],
+  "adminEventsEnabled": true,
+  "adminEventsDetailsEnabled": true,
+  "clients": [
+    {
+      "clientId": "promo-admin-web",
+      "enabled": true,
+      "publicClient": true,
+      "protocol": "openid-connect",
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+      "fullScopeAllowed": true,
+      "redirectUris": [
+        "${BPE_URL}/*",
+        "${BPE_URL}"
+      ],
+      "webOrigins": [
+        "${BPE_ORIGIN}"
+      ],
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "post.logout.redirect.uris": "${BPE_URL}/*##${BPE_URL}"
+      },
+      "protocolMappers": [
+        {
+          "name": "role",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "consentRequired": false,
+          "config": {
+            "user.attribute": "role",
+            "claim.name": "role",
+            "jsonType.label": "String",
+            "multivalued": "false",
+            "aggregate.attrs": "false",
+            "access.token.claim": "true",
+            "id.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        },
+        {
+          "name": "sites",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "consentRequired": false,
+          "config": {
+            "user.attribute": "sites",
+            "claim.name": "sites",
+            "jsonType.label": "String",
+            "multivalued": "true",
+            "aggregate.attrs": "false",
+            "access.token.claim": "true",
+            "id.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        },
+        {
+          "name": "name",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-full-name-mapper",
+          "consentRequired": false,
+          "config": {
+            "access.token.claim": "true",
+            "id.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        },
+        {
+          "name": "promo-api audience",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "consentRequired": false,
+          "config": {
+            "included.custom.audience": "promo-api",
+            "access.token.claim": "true",
+            "id.token.claim": "false",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "clientId": "promo-administration",
+      "name": "administration service (reads the people for the Users screen)",
+      "enabled": true,
+      "publicClient": false,
+      "protocol": "openid-connect",
+      "clientAuthenticatorType": "client-secret",
+      "secret": "${PROMO_ADMINISTRATION_CLIENT_SECRET}",
+      "standardFlowEnabled": false,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": true,
+      "fullScopeAllowed": true,
+      "defaultClientScopes": [
+        "web-origins",
+        "acr",
+        "profile",
+        "roles",
+        "basic",
+        "email",
+        "kc-admin-api"
+      ]
+    },
+    {
+      "clientId": "promo-seed",
+      "enabled": true,
+      "publicClient": false,
+      "protocol": "openid-connect",
+      "standardFlowEnabled": false,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": true,
+      "serviceAccountsEnabled": false,
+      "fullScopeAllowed": true,
+      "attributes": {
+        "post.logout.redirect.uris": "+"
+      },
+      "protocolMappers": [
+        {
+          "name": "role",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "consentRequired": false,
+          "config": {
+            "user.attribute": "role",
+            "claim.name": "role",
+            "jsonType.label": "String",
+            "multivalued": "false",
+            "aggregate.attrs": "false",
+            "access.token.claim": "true",
+            "id.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        },
+        {
+          "name": "sites",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "consentRequired": false,
+          "config": {
+            "user.attribute": "sites",
+            "claim.name": "sites",
+            "jsonType.label": "String",
+            "multivalued": "true",
+            "aggregate.attrs": "false",
+            "access.token.claim": "true",
+            "id.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        },
+        {
+          "name": "promo-api audience",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "consentRequired": false,
+          "config": {
+            "included.custom.audience": "promo-api",
+            "access.token.claim": "true",
+            "id.token.claim": "false",
+            "introspection.token.claim": "true"
+          }
+        }
+      ],
+      "name": "Demo data seed (deleted by the seed when it is done)",
+      "clientAuthenticatorType": "client-secret",
+      "secret": "${PROMO_SEED_CLIENT_SECRET}"
+    }
+  ],
+  "users": [
+    {
+      "username": "au1",
+      "enabled": true,
+      "emailVerified": true,
+      "email": "au1@promo.test",
+      "firstName": "Aud",
+      "lastName": "Auditor",
+      "attributes": {
+        "role": [
+          "AUDITOR"
+        ],
+        "sites": [
+          "basspro.com",
+          "cabelas.com"
+        ]
+      },
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${TEST_USER_PASSWORD}",
+          "temporary": false
+        }
+      ],
+      "requiredActions": []
+    },
+    {
+      "username": "service-account-promo-administration",
+      "enabled": true,
+      "serviceAccountClientId": "promo-administration",
+      "clientRoles": {
+        "realm-management": [
+          "view-users",
+          "view-events"
+        ]
+      }
+    },
+    {
+      "username": "mortiz",
+      "enabled": true,
+      "emailVerified": true,
+      "email": "mortiz@promo.test",
+      "firstName": "Maya",
+      "lastName": "Ortiz",
+      "attributes": {
+        "role": [
+          "MERCHANDISER"
+        ],
+        "sites": [
+          "basspro.com",
+          "m.basspro.com",
+          "cabelas.com"
+        ]
+      },
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${TEST_USER_PASSWORD}",
+          "temporary": false
+        }
+      ],
+      "requiredActions": []
+    },
+    {
+      "username": "dpatel",
+      "enabled": true,
+      "emailVerified": true,
+      "email": "dpatel@promo.test",
+      "firstName": "Dev",
+      "lastName": "Patel",
+      "attributes": {
+        "role": [
+          "APPROVER"
+        ],
+        "sites": [
+          "basspro.com",
+          "m.basspro.com",
+          "cabelas.com"
+        ]
+      },
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${TEST_USER_PASSWORD}",
+          "temporary": false
+        }
+      ],
+      "requiredActions": []
+    },
+    {
+      "username": "rgomez",
+      "enabled": true,
+      "emailVerified": true,
+      "email": "rgomez@promo.test",
+      "firstName": "Rita",
+      "lastName": "Gomez",
+      "attributes": {
+        "role": [
+          "SITE_ADMIN"
+        ],
+        "sites": [
+          "basspro.ca",
+          "mackspw.com"
+        ]
+      },
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${TEST_USER_PASSWORD}",
+          "temporary": false
+        }
+      ],
+      "requiredActions": []
+    },
+    {
+      "username": "areed",
+      "enabled": true,
+      "emailVerified": true,
+      "email": "areed@promo.test",
+      "firstName": "Alan",
+      "lastName": "Reed",
+      "attributes": {
+        "role": [
+          "SUPER_ADMIN"
+        ],
+        "sites": [
+          "basspro.com",
+          "m.basspro.com",
+          "cabelas.com",
+          "basspro.ca",
+          "mackspw.com"
+        ]
+      },
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${TEST_USER_PASSWORD}",
+          "temporary": false
+        }
+      ],
+      "requiredActions": []
+    }
+  ],
+  "components": {
+    "org.keycloak.userprofile.UserProfileProvider": [
+      {
+        "providerId": "declarative-user-profile",
+        "subComponents": {},
+        "config": {
+          "kc.user.profile.config": [
+            "{\"attributes\": [{\"name\": \"username\", \"displayName\": \"${username}\", \"validations\": {\"length\": {\"min\": 3, \"max\": 255}, \"username-prohibited-characters\": {}, \"up-username-not-idn-homograph\": {}}, \"permissions\": {\"view\": [\"admin\", \"user\"], \"edit\": [\"admin\", \"user\"]}}, {\"name\": \"email\", \"displayName\": \"${email}\", \"validations\": {\"email\": {}, \"length\": {\"max\": 255}}, \"permissions\": {\"view\": [\"admin\", \"user\"], \"edit\": [\"admin\", \"user\"]}}, {\"name\": \"firstName\", \"displayName\": \"${firstName}\", \"validations\": {\"length\": {\"max\": 255}, \"person-name-prohibited-characters\": {}}, \"permissions\": {\"view\": [\"admin\", \"user\"], \"edit\": [\"admin\", \"user\"]}}, {\"name\": \"lastName\", \"displayName\": \"${lastName}\", \"validations\": {\"length\": {\"max\": 255}, \"person-name-prohibited-characters\": {}}, \"permissions\": {\"view\": [\"admin\", \"user\"], \"edit\": [\"admin\", \"user\"]}}, {\"name\": \"role\", \"displayName\": \"Role\", \"multivalued\": false, \"validations\": {\"options\": {\"options\": [\"MERCHANDISER\", \"APPROVER\", \"SITE_ADMIN\", \"SUPER_ADMIN\", \"VIEWER_QA\", \"AUDITOR\"]}}, \"permissions\": {\"view\": [\"admin\"], \"edit\": [\"admin\"]}}, {\"name\": \"sites\", \"displayName\": \"Sites\", \"multivalued\": true, \"validations\": {\"pattern\": {\"pattern\": \"^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$\", \"error-message\": \"A site code is lower-case letters, digits, dots and dashes, such as basspro.com\"}, \"length\": {\"max\": 64}}, \"permissions\": {\"view\": [\"admin\"], \"edit\": [\"admin\"]}}]}"
+          ]
+        }
+      }
+    ]
+  },
+  "loginTheme": "promo"
+}

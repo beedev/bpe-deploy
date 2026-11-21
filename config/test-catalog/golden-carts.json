@@ -1,0 +1,962 @@
+[
+  {
+    "id": "GOLD",
+    "purpose": "D-GOLD exactly: the Final Design's example cart (Appendix C). Merchandise 369.94.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "BASE",
+    "purpose": "D-BASE: the D-GOLD lines, no customer, payment, code or shipping; for one promotion at a time.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SITE-CAB",
+    "purpose": "Site targeting: the same lines on cabelas.com. Inside for a promotion ticked for cabelas.com, outside for one on basspro.com only.",
+    "cart": {
+      "site": "cabelas.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SITE-CA",
+    "purpose": "basspro.ca in CAD (ROD-1001 at 169.99 CAD): a promotion's CAD amount applies; a USD-only promotion does not.",
+    "cart": {
+      "site": "basspro.ca",
+      "channel": "WEB",
+      "currency": "CAD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 169.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 104.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SITE-MACKS",
+    "purpose": "mackspw.com, the waterfowl store: decoys and a duck call.",
+    "cart": {
+      "site": "mackspw.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "MPW-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "MPW-1004",
+          "quantity": 1,
+          "unitPrice": 59.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CAT-IN",
+    "purpose": "Category include /fishing/rods: two rods (spinning and casting) are inside.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "ROD-1002",
+          "quantity": 1,
+          "unitPrice": 119.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CAT-OUT",
+    "purpose": "Category include /fishing/rods: a tent footprint and socks are outside.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "OTHER-0001",
+          "quantity": 1,
+          "unitPrice": 20.0,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "SOCK-6100",
+          "quantity": 2,
+          "unitPrice": 14.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BRAND-DSCS",
+    "purpose": "The test of brand B1 minus DSCS X-100: I1 = BP-LURE-001 (DSCS 330-04), I2 = BP-FISH-015 (DSCS 321-05), same brand Bass Pro Shops. Include the brand, exclude I1's DSCS: only I2 is reduced.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "BP-LURE-001",
+          "quantity": 1,
+          "unitPrice": 18.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "BP-FISH-015",
+          "quantity": 1,
+          "unitPrice": 199.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CLEARANCE",
+    "purpose": "BP-FISH-001 is flagged clearance (no promotable flag): a rod promotion reduces ROD-1001, never the clearance item.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "BP-FISH-001",
+          "quantity": 1,
+          "unitPrice": 32.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NOT-PROMOTABLE",
+    "purpose": "BP-FISH-012 has no promotable flag (minimum advertised price, firearm or ammunition): an order-wide percentage leaves it at full price.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "BP-FISH-012",
+          "quantity": 1,
+          "unitPrice": 1499.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CHANNEL-APP",
+    "purpose": "Channel: D-GOLD from the mobile app. Outside a WEB-only promotion.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "MOBILE_APP",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "CHANNEL-RETAIL",
+    "purpose": "Channel: RETAIL (a channel value only, Q-005). Outside a WEB-only promotion.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "RETAIL",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SEG-NONE",
+    "purpose": "Segments: a known shopper with no segment. Outside a CLUB promotion.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": []
+      },
+      "paymentType": "CLUB_CARD",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "SEG-GOLD",
+    "purpose": "Segments: a shopper with only [GOLD]. Outside a CLUB promotion; inside one for GOLD.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "GOLD"
+        ]
+      },
+      "paymentType": "CLUB_CARD",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PAY-VISA",
+    "purpose": "Payment type VISA instead of CLUB_CARD. Outside a CLUB_CARD promotion.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "customer": {
+        "id": "c-48213",
+        "segments": [
+          "CLUB"
+        ]
+      },
+      "paymentType": "VISA",
+      "codes": [
+        "TAKE20"
+      ],
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ],
+      "shipping": [
+        {
+          "shipmentId": "S1",
+          "method": "GROUND",
+          "charge": 12.0,
+          "lineIds": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "FULFIL-PICKUP",
+    "purpose": "Fulfilment: every line STORE_PICKUP. Inside a pickup promotion; outside a SHIP_TO_HOME one.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "STORE_PICKUP"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  },
+  {
+    "id": "FULFIL-FREIGHT",
+    "purpose": "Fulfilment FREIGHT: a bass boat (BP-BOAT-001). Big ticket; outside a free-shipping promotion limited to SHIP_TO_HOME.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "BP-BOAT-001",
+          "quantity": 1,
+          "unitPrice": 22999.0,
+          "fulfilment": "FREIGHT"
+        }
+      ]
+    }
+  },
+  {
+    "id": "QTY-UNDER",
+    "purpose": "Minimum quantity 3 lures: 2 is under.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "LURE-0310",
+          "quantity": 2,
+          "unitPrice": 9.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "QTY-AT",
+    "purpose": "Minimum quantity 3 lures: 3 is at the limit (inside).",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SPEND-UNDER-300",
+    "purpose": "Minimum spend 300.00: one rod, one reel, three lures is 239.95 (outside). D-GOLD at 369.94 is inside.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SET-ABC",
+    "purpose": "Set A and B and C (combo SKUs): rod ROD-1001, reel REEL-2040 and line LINE-0550 all present.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LINE-0550",
+          "quantity": 1,
+          "unitPrice": 24.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SET-AB",
+    "purpose": "The same set with the line missing: the set is not complete.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 1,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SCHED-BEFORE",
+    "asOf": "2026-11-26T23:59:00-06:00",
+    "purpose": "Schedule read in the site's zone: one minute before a start of 2026-11-27 00:00 America/Chicago (outside).",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SCHED-AT",
+    "asOf": "2026-11-27T00:00:00-06:00",
+    "purpose": "Schedule: exactly at the start on basspro.com (inside).",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SCHED-CA-SAME-INSTANT",
+    "asOf": "2026-11-27T00:00:00-06:00",
+    "purpose": "The same instant on basspro.ca is 01:00 America/Toronto: a start of 2026-11-27 00:00 local has already passed there (inside), an hour earlier than on basspro.com.",
+    "cart": {
+      "site": "basspro.ca",
+      "channel": "WEB",
+      "currency": "CAD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 169.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 104.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 12.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SCHED-DST-SKIPPED",
+    "asOf": "2027-03-14T03:00:00-05:00",
+    "purpose": "ADR-003 edge: a start of 2027-03-14 02:30 America/Chicago does not exist (clocks jump 02:00 to 03:00). The rule of ADR-003 decides; this is the first real instant after it.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SCHED-DST-REPEATED",
+    "asOf": "2026-11-01T01:30:00-06:00",
+    "purpose": "ADR-003 edge: 2026-11-01 01:30 America/Chicago happens twice (CDT then CST); this is the second one.",
+    "cart": {
+      "site": "basspro.com",
+      "channel": "WEB",
+      "currency": "USD",
+      "lines": [
+        {
+          "lineId": "1",
+          "sku": "ROD-1001",
+          "quantity": 2,
+          "unitPrice": 129.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "2",
+          "sku": "REEL-2040",
+          "quantity": 1,
+          "unitPrice": 79.99,
+          "fulfilment": "SHIP_TO_HOME"
+        },
+        {
+          "lineId": "3",
+          "sku": "LURE-0310",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "fulfilment": "STORE_PICKUP"
+        }
+      ]
+    }
+  }
+]

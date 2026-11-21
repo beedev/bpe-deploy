@@ -1,0 +1,584 @@
+sku,site,name,price,currency,categoryPath,brand,dscs,flags
+BP-APRL-002,basspro.com,Under Armour ColdGear Base 3.0 Crew,64.99,USD,/apparel/base-layers,Under Armour,701-06,promotable
+BP-APRL-003,basspro.com,"Danner Pronghorn 8"" Insulated Hunting Boot",249.99,USD,/apparel/boots,Danner,702-07,promotable
+BP-APRL-005,basspro.com,ScentLok Savanna Aero Crosshair Jacket,149.99,USD,/apparel/camo-clothing,ScentLok,704-02,clearance
+BP-APRL-004,basspro.com,Ascend Deluxe Fishing Shirt,39.99,USD,/apparel/fishing-apparel,Ascend,703-01,promotable
+BP-APRL-001,basspro.com,RedHead Bone-Dry Camo Rain Jacket,99.99,USD,/apparel/jackets,RedHead,700-05,promotable
+SOCK-6100,basspro.com,Merino wool hiking socks,14.99,USD,/apparel/socks,RedHead,700-09,promotable
+BP-BOAT-001,basspro.com,Tracker Pro Team 175 TXW Bass Boat,22999.00,USD,/boating/bass-boats,Tracker,601-06,promotable
+BP-BOAT-003,basspro.com,Stohlquist FIT Adult PFD Life Jacket,69.99,USD,/boating/life-jackets,Stohlquist,603-01,promotable
+BP-BOAT-002,basspro.com,Interstate Deep Cycle Marine Battery,119.99,USD,/boating/marine-batteries,Interstate,602-07,promotable
+BP-BOAT-004,basspro.com,Humminbird HELIX 7 CHIRP MEGA SI GPS G4N,799.99,USD,/boating/marine-electronics,Humminbird,604-02,
+BP-BOAT-005,basspro.com,MotorGuide Xi3 55 FW Trolling Motor,1199.99,USD,/boating/trolling-motors,MotorGuide,600-03,
+BP-FISH-012,basspro.com,Minn Kota Riptide Terrova 55 Trolling Motor,1499.99,USD,/boating/trolling-motors,Minn Kota,600-02,
+BP-CAMP-004,basspro.com,Camp Chef Explorer 2-Burner Stove,159.99,USD,/camping/camp-cooking,Camp Chef,500-07,promotable
+BP-CAMP-009,basspro.com,Jetboil Flash Cooking System,114.99,USD,/camping/camp-cooking,Jetboil,500-05,promotable
+BP-CAMP-022,basspro.com,Weber Q1200 Portable Gas Grill,89.99,USD,/camping/camp-cooking,Weber,500-05,promotable
+BP-CAMP-028,basspro.com,Stanley Adventure Base Camp Cook Set,44.99,USD,/camping/camp-cooking,Stanley,500-04,promotable
+BP-CAMP-029,basspro.com,GSI Outdoors Pinnacle Camper Cookset,79.99,USD,/camping/camp-cooking,GSI Outdoors,500-05,promotable
+BP-CAMP-006,basspro.com,Alps Mountaineering King Kong Chair,54.99,USD,/camping/camp-furniture,ALPS Mountaineering,502-02,promotable
+BP-CAMP-023,basspro.com,Ozark Trail Basic Quad Folding Chair,24.99,USD,/camping/camp-furniture,Bass Pro Shops,502-06,promotable
+BP-CAMP-025,basspro.com,ENO DoubleNest Hammock,34.99,USD,/camping/camp-furniture,ENO,502-01,promotable
+BP-COOL-001,basspro.com,Bass Pro Shops Polar Cap XXL Cooler,449.99,USD,/camping/coolers,Bass Pro Shops,508-06,promotable
+BP-COOL-002,basspro.com,Bass Pro Shops 11-Qt. Hard-Sided Cooler,29.99,USD,/camping/coolers,Bass Pro Shops,508-07,promotable
+BP-COOL-003,basspro.com,Bass Pro Shops Polar Cap Large Cooler,299.99,USD,/camping/coolers,Bass Pro Shops,508-01,promotable
+BP-COOL-004,basspro.com,Bass Pro Shops The Big Bobber Floating Cooler,49.99,USD,/camping/coolers,Bass Pro Shops,508-02,promotable
+BP-COOL-005,basspro.com,YETI Tundra 45 Cooler,325.00,USD,/camping/coolers,YETI,508-03,
+BP-COOL-006,basspro.com,YETI Tundra Haul Wheeled Cooler,450.00,USD,/camping/coolers,YETI,508-04,
+BP-COOL-007,basspro.com,Igloo Thermoelectric IE 42 Roller Cooler,249.99,USD,/camping/coolers,Igloo,508-05,promotable
+BP-COOL-008,basspro.com,YETI Tundra 35 Cooler,295.00,USD,/camping/coolers,YETI,508-06,
+BP-COOL-009,basspro.com,Igloo Polar 120 Cooler,99.99,USD,/camping/coolers,Igloo,508-07,promotable
+BP-CAMP-008,basspro.com,Stanley Classic Vacuum Bottle 1.5qt,39.99,USD,/camping/drinkware,Stanley,504-04,promotable
+BP-CAMP-031,basspro.com,UST BlastMatch Fire Starter,14.99,USD,/camping/fire-starting,UST,507-07,promotable
+BP-CAMP-007,basspro.com,Ascend H10 Sit-In Kayak,399.99,USD,/camping/kayaks,Ascend,503-03,promotable
+BP-CAMP-005,basspro.com,Coleman Quad LED Lantern,29.99,USD,/camping/lighting,Coleman,501-01,clearance
+BP-CAMP-026,basspro.com,Black Diamond Spot 400 Headlamp,24.99,USD,/camping/lighting,Black Diamond,501-02,promotable
+BP-CAMP-027,basspro.com,Luci Solar Inflatable String Lights,19.99,USD,/camping/lighting,Luci,501-03,promotable
+BP-CAMP-030,basspro.com,Adventure Medical Kits Ultralight First Aid Kit,19.99,USD,/camping/safety,Adventure Medical Kits,506-06,promotable
+BP-SLEEP-001,basspro.com,Cabela's Mountain Trapper 0°F Sleeping Bag,139.99,USD,/camping/sleeping-bags,Cabela's,510-03,promotable
+BP-SLEEP-002,basspro.com,ActionHeat 5V Battery-Heated Sleeping Bag,199.99,USD,/camping/sleeping-bags,ActionHeat,510-04,promotable
+BP-SLEEP-003,basspro.com,Bass Pro Shops 30° Rectangular Sleeping Bag For Kids,29.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-05,promotable
+BP-SLEEP-004,basspro.com,Bass Pro Shops 0° Canvas Rectangular Sleeping Bag,89.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-06,promotable
+BP-SLEEP-005,basspro.com,TETON Sports Fahrenheit 20°F Mammoth Double Sleeping Bag,199.99,USD,/camping/sleeping-bags,TETON Sports,510-07,promotable
+BP-SLEEP-006,basspro.com,Ascend Tsunami 0° Mummy Sleeping Bag,119.99,USD,/camping/sleeping-bags,Ascend,510-01,promotable
+BP-SLEEP-007,basspro.com,Kelty Mistral 20°F Mummy Sleeping Bag,79.95,USD,/camping/sleeping-bags,Kelty,510-02,promotable
+BP-SLEEP-008,basspro.com,Bass Pro Shops 30° Mummy Sleeping Bag For Kids,39.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-03,promotable
+BP-SLEEP-009,basspro.com,Cabela's Outfitter XL -20°F Rectangular Sleeping Bag,169.99,USD,/camping/sleeping-bags,Cabela's,510-04,promotable
+BP-CAMP-015,basspro.com,Ozark Trail Foam Sleeping Pad,29.99,USD,/camping/sleeping-pads,Bass Pro Shops,505-01,promotable
+BP-CAMP-016,basspro.com,Cabelas Outfitter XL Self-Inflating Sleeping Pad,69.99,USD,/camping/sleeping-pads,Cabela's,505-02,promotable
+BP-CAMP-017,basspro.com,Ascend Stratus Insulated Air Sleeping Pad,129.99,USD,/camping/sleeping-pads,Ascend,505-03,promotable
+BP-CAMP-032,basspro.com,Therm-a-Rest Compressible Camp Pillow,24.99,USD,/camping/sleeping-pads,Therm-a-Rest,505-01,promotable
+BP-TENT-002,basspro.com,Cabela's Alaskan Guide Model Geodesic 8-Person Tent,599.99,USD,/camping/tents,Cabela's,509-02,promotable
+BP-TENT-004,basspro.com,Core Equipment 11-Person Cabin Tent With Screen Room,339.99,USD,/camping/tents,Core Equipment,509-04,promotable
+BP-TENT-006,basspro.com,Bass Pro Shops 1-Person Scout Tent,29.99,USD,/camping/tents,Bass Pro Shops,509-06,promotable
+BP-TENT-007,basspro.com,White Duck Outdoors Regatta 13' Water-Repellent Bell Tent,770.00,USD,/camping/tents,White Duck Outdoors,509-07,promotable
+BP-TENT-008,basspro.com,Kodiak Canvas Stove-Ready 8-Person 12x12 Cabin Lodge Tent,999.99,USD,/camping/tents,Kodiak Canvas,509-01,promotable
+OTHER-0001,basspro.com,"Tent footprint, 2-person",20.00,USD,/camping/tents,Bass Pro Shops,500-01,promotable
+BP-FISH-026,basspro.com,Bass Pro Shops Stainless Steel Fishing Pliers,14.99,USD,/fishing/accessories,Bass Pro Shops,342-01,clearance
+BP-BOAT-006,basspro.com,Bass Pro Shops Tourney Special Baitcast Combo,79.99,USD,/fishing/combos,Bass Pro Shops,321-04,promotable
+BP-FISH-015,basspro.com,Johnny Morris Carbonlite 2.0 Baitcasting Combo,199.99,USD,/fishing/combos,Bass Pro Shops,321-05,promotable
+BP-FISH-017,basspro.com,Bass Pro Shops Kids Beginner Spincast Combo,29.99,USD,/fishing/combos,Bass Pro Shops,321-03,promotable
+BP-FISH-013,basspro.com,Lowrance HOOK Reveal 7 Fish Finder,449.99,USD,/fishing/electronics,Lowrance,350-03,
+BP-FLY-011,basspro.com,White River Fly Shop 12-Piece Classic Trout Fly Assortment,19.99,USD,/fishing/fly-accessories,White River Fly Shop,341-06,promotable
+BP-FLY-012,basspro.com,White River Fly Shop Pre-Looped Trout Tapered Leader,9.99,USD,/fishing/fly-accessories,White River Fly Shop,341-07,promotable
+BP-FLY-013,basspro.com,White River Fly Shop Deluxe Fly-Tying Kit With Case,69.99,USD,/fishing/fly-accessories,White River Fly Shop,341-01,promotable
+BP-FLY-015,basspro.com,White River Fly Shop Prestige Rubber Bag Trout Net,59.99,USD,/fishing/fly-accessories,White River Fly Shop,341-03,promotable
+BP-FLY-010,basspro.com,White River Fly Shop Riseform Fly Combo,99.99,USD,/fishing/fly-combos,White River Fly Shop,322-05,promotable
+BP-FLY-014,basspro.com,White River Fly Shop Prestige Fly Combo,159.99,USD,/fishing/fly-combos,White River Fly Shop,322-02,promotable
+BP-FISH-005,basspro.com,Berkley Trilene XL Monofilament Line,6.99,USD,/fishing/line,Berkley,340-05,promotable
+BP-FISH-006,basspro.com,PowerPro Spectra Braided Line,19.99,USD,/fishing/line,PowerPro,340-06,promotable
+BP-FISH-021,basspro.com,Seaguar Red Label Fluorocarbon Line,12.99,USD,/fishing/line,Seaguar,340-07,promotable
+LINE-0550,basspro.com,"Braided line, 30 lb, 150 yd",24.99,USD,/fishing/line,PowerPro,340-01,promotable
+BP-LURE-001,basspro.com,Bass Pro Shops XPS Swerve Glide Brushtail Swimbait,18.99,USD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-002,basspro.com,Bass Pro Shops Tourney Special 8-Piece Lure Kit,19.99,USD,/fishing/lures,Bass Pro Shops,330-05,promotable
+BP-LURE-003,basspro.com,Bass Pro Shops Go-To Swim Minnow,4.99,USD,/fishing/lures,Bass Pro Shops,330-06,promotable
+BP-LURE-005,basspro.com,XPS Urch-X,9.99,USD,/fishing/lures,Bass Pro Shops,330-01,promotable
+BP-LURE-006,basspro.com,XPS Creature Kit,29.99,USD,/fishing/lures,Bass Pro Shops,330-02,promotable
+BP-LURE-007,basspro.com,Bass Pro Shops XPS Rattle Shad Kit,24.99,USD,/fishing/lures,Bass Pro Shops,330-03,promotable
+BP-LURE-008,basspro.com,Bass Pro Shops Ribbontail Worm,4.99,USD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-009,basspro.com,Bass Pro Shops Dressed Casting Spoon,5.99,USD,/fishing/lures,Bass Pro Shops,330-05,promotable
+LURE-0310,basspro.com,"Soft plastic swimbait, 5-pack",9.99,USD,/fishing/lures,Berkley,330-01,promotable
+LURE-0420,basspro.com,"Soft plastic worms, 10-pack",6.49,USD,/fishing/lures,Bass Pro Shops,330-02,clearance
+BP-FISH-002,basspro.com,Shimano Stradic FL 2500 Spinning Reel,219.99,USD,/fishing/reels,Shimano,320-02,promotable
+BP-FISH-003,basspro.com,Abu Garcia Revo X Baitcasting Reel,99.99,USD,/fishing/reels,Abu Garcia,320-03,promotable
+BP-FISH-019,basspro.com,Bass Pro Shops Micro Lite Spinning Reel,29.99,USD,/fishing/reels,Bass Pro Shops,320-05,promotable
+BP-FISH-020,basspro.com,Pflueger President XT Spinning Reel,59.99,USD,/fishing/reels,Pflueger,320-06,promotable
+REEL-2040,basspro.com,"Spinning reel, 3000 size",79.99,USD,/fishing/reels,Shimano,320-01,promotable
+REEL-2049,basspro.com,"Spinning reel, 3000 size (clearance)",59.99,USD,/fishing/reels,Shimano,320-01,clearance|promotable
+BP-FISH-004,basspro.com,St. Croix Bass X Casting Rod,129.99,USD,/fishing/rods/casting,St. Croix,310-04,promotable
+ROD-1002,basspro.com,"Casting rod, 6 ft 6 in",119.99,USD,/fishing/rods/casting,Bass Pro Shops,310-14,promotable
+BP-FLY-001,basspro.com,White River Fly Shop CGR Fiberglass Fly Rod,89.99,USD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-002,basspro.com,White River Fly Shop Riseform Fly Rod,69.99,USD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FLY-003,basspro.com,White River Fly Shop Prestige Fly Rod,99.99,USD,/fishing/rods/fly,White River Fly Shop,311-05,promotable
+BP-FLY-004,basspro.com,World Wide Sportsman Deceiver Fly Rod,99.99,USD,/fishing/rods/fly,World Wide Sportsman,311-06,promotable
+BP-FLY-005,basspro.com,World Wide Sportsman Gold Cup Fly Rod,219.99,USD,/fishing/rods/fly,World Wide Sportsman,311-07,promotable
+BP-FLY-006,basspro.com,White River Fly Shop Heat Fly Rod,119.99,USD,/fishing/rods/fly,White River Fly Shop,311-01,promotable
+BP-FLY-007,basspro.com,World Wide Sportsman Landmark Fly Rod,219.99,USD,/fishing/rods/fly,World Wide Sportsman,311-02,promotable
+BP-FLY-008,basspro.com,White River Fly Shop Vanguard Fly Rod,149.99,USD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-009,basspro.com,White River Fly Shop Vanguard Fly Combo,269.99,USD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FISH-001,basspro.com,Ugly Stik GX2 Spinning Rod,32.99,USD,/fishing/rods/spinning,Shakespeare,310-01,clearance
+BP-FISH-016,basspro.com,Shakespeare Micro Series Ultralight Spinning Rod,49.99,USD,/fishing/rods/spinning,Shakespeare,310-02,promotable
+BP-FISH-018,basspro.com,Penn Battalion II Surf Spinning Rod,109.99,USD,/fishing/rods/spinning,Penn,310-04,promotable
+ROD-1001,basspro.com,"Spinning rod, 7 ft",129.99,USD,/fishing/rods/spinning,Bass Pro Shops,310-12,promotable
+BP-FISH-010,basspro.com,Plano Guide Series 3700 Tackle Bag,49.99,USD,/fishing/tackle-storage,Plano,343-07,clearance
+BP-FISH-014,basspro.com,Simms Freestone Stockingfoot Waders,249.99,USD,/fishing/waders,Simms,360-04,promotable
+GIFT-0001,basspro.com,Logo can cooler,4.99,USD,/gifts/promotional,Bass Pro Shops,900-01,promotable
+BP-HUNT-004,basspro.com,Winchester .30-06 Springfield 150gr Power-Point,29.99,USD,/hunting/ammunition,Winchester,401-07,
+BP-ARCH-001,basspro.com,BlackOut 5-Pin Bow Sight With React Technology,109.99,USD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-002,basspro.com,BlackOut Bow Stabilizer,54.99,USD,/hunting/archery-accessories,BlackOut,409-01,promotable
+BP-ARCH-003,basspro.com,Q.A.D. ULTRAREST Hunter Arrow Rest,69.99,USD,/hunting/archery-accessories,Q.A.D.,409-02,promotable
+BP-ARCH-004,basspro.com,Trophy Ridge Hex Light Quiver,99.99,USD,/hunting/archery-accessories,Trophy Ridge,409-03,promotable
+BP-ARCH-005,basspro.com,BlackOut Whisker Biscuit Arrow Rest,39.99,USD,/hunting/archery-accessories,BlackOut,409-04,promotable
+BP-ARCH-006,basspro.com,Pine Ridge Archery Big Gripper Arrow Puller,12.99,USD,/hunting/archery-accessories,Pine Ridge Archery,409-05,promotable
+BP-ARCH-007,basspro.com,BlackOut Mega Braid Bow Sling,21.99,USD,/hunting/archery-accessories,BlackOut,409-06,promotable
+BP-ARCH-008,basspro.com,BlackOut 5-Arrow Quiver,34.99,USD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-009,basspro.com,Trophy Ridge SWFT Single Pin Bow Sight,89.99,USD,/hunting/archery-accessories,Trophy Ridge,409-01,promotable
+BP-HUNT-008,basspro.com,Primos Hunting Double Bull SurroundView Blind,349.99,USD,/hunting/blinds,Primos,405-04,promotable
+BP-HUNT-009,basspro.com,RedHead Bone-Dry Insulated Rubber Boots,69.99,USD,/hunting/boots,RedHead,406-05,clearance
+BP-BOW-001,basspro.com,Bear Archery Legit NXT RTH Compound Bow Package,479.99,USD,/hunting/bows,Bear Archery,408-05,promotable
+BP-BOW-002,basspro.com,BlackOut NV-3 Compound Bow,799.99,USD,/hunting/bows,BlackOut,408-06,promotable
+BP-BOW-003,basspro.com,BlackOut Distinct XT Compound Bow Package,549.99,USD,/hunting/bows,BlackOut,408-07,promotable
+BP-BOW-004,basspro.com,Bear Archery Cruzer G3 Black RTH Compound Bow Package,319.97,USD,/hunting/bows,Bear Archery,408-01,promotable
+BP-BOW-005,basspro.com,Bear Archery Legend 30 RTH Compound Bow Package,499.97,USD,/hunting/bows,Bear Archery,408-02,promotable
+BP-BOW-007,basspro.com,Barnett XP400 Midnight Edition Crossbow Package With Crank Cocking Device,699.00,USD,/hunting/bows,Barnett,408-04,promotable
+BP-BOW-008,basspro.com,BlackOut Epic NT Compound Bow Package,649.99,USD,/hunting/bows,BlackOut,408-05,promotable
+BP-BOW-009,basspro.com,BlackOut Faze 2 Compound Bow Package,349.99,USD,/hunting/bows,BlackOut,408-06,promotable
+BP-HUNT-010,basspro.com,Hunters Specialties Strut Turkey Call Kit,34.99,USD,/hunting/calls-decoys,Hunters Specialties,407-06,promotable
+BP-HUNT-005,basspro.com,Leupold VX-3HD 3.5-10x40 Rifle Scope,449.99,USD,/hunting/optics,Leupold,402-01,promotable
+BP-HUNT-003,basspro.com,Browning X-Bolt Hunter Bolt-Action Rifle,899.99,USD,/hunting/rifles,Browning,400-06,
+BP-HUNT-007,basspro.com,Primos Proof Gen 2 Trail Camera,69.99,USD,/hunting/trail-cameras,Primos,404-03,promotable
+BP-HUNT-006,basspro.com,Muddy Nexus 20ft Ladder Treestand,159.99,USD,/hunting/treestands,Muddy,403-02,clearance
+TKY-2010,basspro.com,Box turkey call,34.99,USD,/hunting/turkey,Primos,430-01,promotable
+TKY-2020,basspro.com,Slate turkey call,29.99,USD,/hunting/turkey,Primos,430-02,promotable
+BP-BIKE-001,basspro.com,"Ascend Zion Hardtail 29"" Mountain Bike",499.99,USD,/outdoor-rec/bikes,Ascend,804-02,promotable
+BP-BIKE-002,basspro.com,Razor MX650 Dirt Rocket 36V Sport Electric Dirt Bike,899.99,USD,/outdoor-rec/bikes,Razor,804-03,promotable
+BP-BIKE-003,basspro.com,Razor MX125 Dirt Rocket Electric Bike For Kids,309.99,USD,/outdoor-rec/bikes,Razor,804-04,promotable
+BP-BIKE-004,basspro.com,"Mongoose Grafton 26"" Mountain Bike",329.99,USD,/outdoor-rec/bikes,Mongoose,804-05,promotable
+BP-OUTR-005,basspro.com,Cabela's Alaskan Guide Series Tent Cot,329.99,USD,/outdoor-rec/camp-bedding,Cabela's,803-07,promotable
+BP-OUTR-003,basspro.com,UCO Stormproof Match Kit,5.99,USD,/outdoor-rec/fire-starters,UCO,802-05,clearance
+BP-OUTR-002,basspro.com,Gerber StrongArm Fixed Blade Knife,59.99,USD,/outdoor-rec/knives,Gerber,801-04,promotable
+BP-OUTR-001,basspro.com,Leupold BX-4 Pro Guide HD 10x42 Binoculars,399.99,USD,/outdoor-rec/optics,Leupold,800-03,promotable
+BP-OUTR-004,basspro.com,Bushnell Forge 4.5-27x50 Riflescope,599.99,USD,/outdoor-rec/optics,Bushnell,800-06,promotable
+BP-APRL-002,cabelas.com,Under Armour ColdGear Base 3.0 Crew,64.99,USD,/apparel/base-layers,Under Armour,701-06,promotable
+BP-APRL-003,cabelas.com,"Danner Pronghorn 8"" Insulated Hunting Boot",249.99,USD,/apparel/boots,Danner,702-07,promotable
+BP-APRL-005,cabelas.com,ScentLok Savanna Aero Crosshair Jacket,149.99,USD,/apparel/camo-clothing,ScentLok,704-02,clearance
+BP-APRL-004,cabelas.com,Ascend Deluxe Fishing Shirt,39.99,USD,/apparel/fishing-apparel,Ascend,703-01,promotable
+BP-APRL-001,cabelas.com,RedHead Bone-Dry Camo Rain Jacket,99.99,USD,/apparel/jackets,RedHead,700-05,promotable
+SOCK-6100,cabelas.com,Merino wool hiking socks,14.99,USD,/apparel/socks,RedHead,700-09,promotable
+BP-BOAT-001,cabelas.com,Tracker Pro Team 175 TXW Bass Boat,22999.00,USD,/boating/bass-boats,Tracker,601-06,promotable
+BP-BOAT-002,cabelas.com,Interstate Deep Cycle Marine Battery,119.99,USD,/boating/marine-batteries,Interstate,602-07,promotable
+BP-BOAT-004,cabelas.com,Humminbird HELIX 7 CHIRP MEGA SI GPS G4N,799.99,USD,/boating/marine-electronics,Humminbird,604-02,
+BP-BOAT-005,cabelas.com,MotorGuide Xi3 55 FW Trolling Motor,1199.99,USD,/boating/trolling-motors,MotorGuide,600-03,
+BP-FISH-012,cabelas.com,Minn Kota Riptide Terrova 55 Trolling Motor,1499.99,USD,/boating/trolling-motors,Minn Kota,600-02,
+BP-CAMP-004,cabelas.com,Camp Chef Explorer 2-Burner Stove,159.99,USD,/camping/camp-cooking,Camp Chef,500-07,promotable
+BP-CAMP-009,cabelas.com,Jetboil Flash Cooking System,114.99,USD,/camping/camp-cooking,Jetboil,500-05,promotable
+BP-CAMP-021,cabelas.com,Coleman Classic 1-Burner Propane Stove,29.99,USD,/camping/camp-cooking,Coleman,500-04,promotable
+BP-CAMP-022,cabelas.com,Weber Q1200 Portable Gas Grill,89.99,USD,/camping/camp-cooking,Weber,500-05,promotable
+BP-CAMP-028,cabelas.com,Stanley Adventure Base Camp Cook Set,44.99,USD,/camping/camp-cooking,Stanley,500-04,promotable
+BP-CAMP-029,cabelas.com,GSI Outdoors Pinnacle Camper Cookset,79.99,USD,/camping/camp-cooking,GSI Outdoors,500-05,promotable
+BP-CAMP-006,cabelas.com,Alps Mountaineering King Kong Chair,52.99,USD,/camping/camp-furniture,ALPS Mountaineering,502-02,promotable
+BP-CAMP-023,cabelas.com,Ozark Trail Basic Quad Folding Chair,24.99,USD,/camping/camp-furniture,Bass Pro Shops,502-06,promotable
+BP-CAMP-024,cabelas.com,Cabelas Camp Table Aluminum Roll-Top,59.99,USD,/camping/camp-furniture,Cabela's,502-07,promotable
+BP-CAMP-025,cabelas.com,ENO DoubleNest Hammock,33.99,USD,/camping/camp-furniture,ENO,502-01,promotable
+BP-COOL-001,cabelas.com,Bass Pro Shops Polar Cap XXL Cooler,449.99,USD,/camping/coolers,Bass Pro Shops,508-06,promotable
+BP-COOL-002,cabelas.com,Bass Pro Shops 11-Qt. Hard-Sided Cooler,29.99,USD,/camping/coolers,Bass Pro Shops,508-07,promotable
+BP-COOL-003,cabelas.com,Bass Pro Shops Polar Cap Large Cooler,299.99,USD,/camping/coolers,Bass Pro Shops,508-01,promotable
+BP-COOL-004,cabelas.com,Bass Pro Shops The Big Bobber Floating Cooler,49.99,USD,/camping/coolers,Bass Pro Shops,508-02,promotable
+BP-COOL-005,cabelas.com,YETI Tundra 45 Cooler,325.00,USD,/camping/coolers,YETI,508-03,
+BP-COOL-006,cabelas.com,YETI Tundra Haul Wheeled Cooler,427.99,USD,/camping/coolers,YETI,508-04,
+BP-COOL-007,cabelas.com,Igloo Thermoelectric IE 42 Roller Cooler,249.99,USD,/camping/coolers,Igloo,508-05,promotable
+BP-COOL-008,cabelas.com,YETI Tundra 35 Cooler,295.00,USD,/camping/coolers,YETI,508-06,
+BP-CAMP-008,cabelas.com,Stanley Classic Vacuum Bottle 1.5qt,39.99,USD,/camping/drinkware,Stanley,504-04,promotable
+BP-CAMP-031,cabelas.com,UST BlastMatch Fire Starter,14.99,USD,/camping/fire-starting,UST,507-07,promotable
+BP-CAMP-007,cabelas.com,Ascend H10 Sit-In Kayak,399.99,USD,/camping/kayaks,Ascend,503-03,promotable
+BP-CAMP-005,cabelas.com,Coleman Quad LED Lantern,29.99,USD,/camping/lighting,Coleman,501-01,clearance
+BP-CAMP-026,cabelas.com,Black Diamond Spot 400 Headlamp,24.99,USD,/camping/lighting,Black Diamond,501-02,promotable
+BP-CAMP-030,cabelas.com,Adventure Medical Kits Ultralight First Aid Kit,19.99,USD,/camping/safety,Adventure Medical Kits,506-06,promotable
+BP-SLEEP-001,cabelas.com,Cabela's Mountain Trapper 0°F Sleeping Bag,139.99,USD,/camping/sleeping-bags,Cabela's,510-03,promotable
+BP-SLEEP-002,cabelas.com,ActionHeat 5V Battery-Heated Sleeping Bag,199.99,USD,/camping/sleeping-bags,ActionHeat,510-04,promotable
+BP-SLEEP-003,cabelas.com,Bass Pro Shops 30° Rectangular Sleeping Bag For Kids,29.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-05,promotable
+BP-SLEEP-004,cabelas.com,Bass Pro Shops 0° Canvas Rectangular Sleeping Bag,89.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-06,promotable
+BP-SLEEP-005,cabelas.com,TETON Sports Fahrenheit 20°F Mammoth Double Sleeping Bag,199.99,USD,/camping/sleeping-bags,TETON Sports,510-07,promotable
+BP-SLEEP-006,cabelas.com,Ascend Tsunami 0° Mummy Sleeping Bag,113.99,USD,/camping/sleeping-bags,Ascend,510-01,promotable
+BP-SLEEP-007,cabelas.com,Kelty Mistral 20°F Mummy Sleeping Bag,79.95,USD,/camping/sleeping-bags,Kelty,510-02,promotable
+BP-SLEEP-008,cabelas.com,Bass Pro Shops 30° Mummy Sleeping Bag For Kids,39.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-03,promotable
+BP-SLEEP-009,cabelas.com,Cabela's Outfitter XL -20°F Rectangular Sleeping Bag,169.99,USD,/camping/sleeping-bags,Cabela's,510-04,promotable
+BP-CAMP-015,cabelas.com,Ozark Trail Foam Sleeping Pad,29.99,USD,/camping/sleeping-pads,Bass Pro Shops,505-01,promotable
+BP-CAMP-016,cabelas.com,Cabelas Outfitter XL Self-Inflating Sleeping Pad,69.99,USD,/camping/sleeping-pads,Cabela's,505-02,promotable
+BP-CAMP-017,cabelas.com,Ascend Stratus Insulated Air Sleeping Pad,129.99,USD,/camping/sleeping-pads,Ascend,505-03,promotable
+BP-CAMP-032,cabelas.com,Therm-a-Rest Compressible Camp Pillow,24.99,USD,/camping/sleeping-pads,Therm-a-Rest,505-01,promotable
+BP-TENT-001,cabelas.com,Cabela's Alaskan Guide Model Geodesic 4-Person Tent,399.99,USD,/camping/tents,Cabela's,509-01,promotable
+BP-TENT-002,cabelas.com,Cabela's Alaskan Guide Model Geodesic 8-Person Tent,599.99,USD,/camping/tents,Cabela's,509-02,promotable
+BP-TENT-003,cabelas.com,Cabela's Alaskan Guide Model Geodesic 6-Person Tent,499.99,USD,/camping/tents,Cabela's,509-03,promotable
+BP-TENT-004,cabelas.com,Core Equipment 11-Person Cabin Tent With Screen Room,339.99,USD,/camping/tents,Core Equipment,509-04,promotable
+BP-TENT-005,cabelas.com,Napier Backroadz 19 Series Truck Tent,189.99,USD,/camping/tents,Napier,509-05,promotable
+BP-TENT-006,cabelas.com,Bass Pro Shops 1-Person Scout Tent,28.99,USD,/camping/tents,Bass Pro Shops,509-06,promotable
+BP-TENT-007,cabelas.com,White Duck Outdoors Regatta 13' Water-Repellent Bell Tent,770.00,USD,/camping/tents,White Duck Outdoors,509-07,promotable
+BP-TENT-008,cabelas.com,Kodiak Canvas Stove-Ready 8-Person 12x12 Cabin Lodge Tent,999.99,USD,/camping/tents,Kodiak Canvas,509-01,promotable
+BP-TENT-009,cabelas.com,Cabela's Ultimate Alaknak 2.0 12'X20' Outfitter Tent,1399.99,USD,/camping/tents,Cabela's,509-02,promotable
+OTHER-0001,cabelas.com,"Tent footprint, 2-person",20.00,USD,/camping/tents,Bass Pro Shops,500-01,promotable
+BP-FISH-026,cabelas.com,Bass Pro Shops Stainless Steel Fishing Pliers,14.99,USD,/fishing/accessories,Bass Pro Shops,342-01,clearance
+BP-FISH-027,cabelas.com,Frabill Trophy Haul Fishing Net,29.99,USD,/fishing/accessories,Frabill,342-02,promotable
+BP-BOAT-006,cabelas.com,Bass Pro Shops Tourney Special Baitcast Combo,75.99,USD,/fishing/combos,Bass Pro Shops,321-04,promotable
+BP-FISH-015,cabelas.com,Johnny Morris Carbonlite 2.0 Baitcasting Combo,199.99,USD,/fishing/combos,Bass Pro Shops,321-05,promotable
+BP-FISH-017,cabelas.com,Bass Pro Shops Kids Beginner Spincast Combo,28.99,USD,/fishing/combos,Bass Pro Shops,321-03,promotable
+BP-FISH-011,cabelas.com,Garmin Striker Vivid 4cv Fish Finder,199.99,USD,/fishing/electronics,Garmin,350-01,
+BP-FISH-013,cabelas.com,Lowrance HOOK Reveal 7 Fish Finder,449.99,USD,/fishing/electronics,Lowrance,350-03,
+BP-FLY-011,cabelas.com,White River Fly Shop 12-Piece Classic Trout Fly Assortment,19.99,USD,/fishing/fly-accessories,White River Fly Shop,341-06,promotable
+BP-FLY-012,cabelas.com,White River Fly Shop Pre-Looped Trout Tapered Leader,9.99,USD,/fishing/fly-accessories,White River Fly Shop,341-07,promotable
+BP-FLY-013,cabelas.com,White River Fly Shop Deluxe Fly-Tying Kit With Case,69.99,USD,/fishing/fly-accessories,White River Fly Shop,341-01,promotable
+BP-FLY-015,cabelas.com,White River Fly Shop Prestige Rubber Bag Trout Net,59.99,USD,/fishing/fly-accessories,White River Fly Shop,341-03,promotable
+BP-FLY-014,cabelas.com,White River Fly Shop Prestige Fly Combo,159.99,USD,/fishing/fly-combos,White River Fly Shop,322-02,promotable
+BP-FISH-005,cabelas.com,Berkley Trilene XL Monofilament Line,6.99,USD,/fishing/line,Berkley,340-05,promotable
+BP-FISH-021,cabelas.com,Seaguar Red Label Fluorocarbon Line,12.99,USD,/fishing/line,Seaguar,340-07,promotable
+LINE-0550,cabelas.com,"Braided line, 30 lb, 150 yd",24.99,USD,/fishing/line,PowerPro,340-01,promotable
+BP-LURE-001,cabelas.com,Bass Pro Shops XPS Swerve Glide Brushtail Swimbait,18.99,USD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-002,cabelas.com,Bass Pro Shops Tourney Special 8-Piece Lure Kit,19.99,USD,/fishing/lures,Bass Pro Shops,330-05,promotable
+BP-LURE-003,cabelas.com,Bass Pro Shops Go-To Swim Minnow,4.99,USD,/fishing/lures,Bass Pro Shops,330-06,promotable
+BP-LURE-004,cabelas.com,XPS Chatterbomb Bladed Jig By Z-Man,8.49,USD,/fishing/lures,Bass Pro Shops,330-07,promotable
+BP-LURE-005,cabelas.com,XPS Urch-X,9.99,USD,/fishing/lures,Bass Pro Shops,330-01,promotable
+BP-LURE-006,cabelas.com,XPS Creature Kit,28.99,USD,/fishing/lures,Bass Pro Shops,330-02,promotable
+BP-LURE-007,cabelas.com,Bass Pro Shops XPS Rattle Shad Kit,24.99,USD,/fishing/lures,Bass Pro Shops,330-03,promotable
+BP-LURE-008,cabelas.com,Bass Pro Shops Ribbontail Worm,4.99,USD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-009,cabelas.com,Bass Pro Shops Dressed Casting Spoon,5.99,USD,/fishing/lures,Bass Pro Shops,330-05,promotable
+LURE-0310,cabelas.com,"Soft plastic swimbait, 5-pack",9.99,USD,/fishing/lures,Berkley,330-01,promotable
+LURE-0420,cabelas.com,"Soft plastic worms, 10-pack",6.49,USD,/fishing/lures,Bass Pro Shops,330-02,clearance
+BP-FISH-002,cabelas.com,Shimano Stradic FL 2500 Spinning Reel,219.99,USD,/fishing/reels,Shimano,320-02,promotable
+BP-FISH-003,cabelas.com,Abu Garcia Revo X Baitcasting Reel,99.99,USD,/fishing/reels,Abu Garcia,320-03,promotable
+BP-FISH-019,cabelas.com,Bass Pro Shops Micro Lite Spinning Reel,29.99,USD,/fishing/reels,Bass Pro Shops,320-05,promotable
+BP-FISH-020,cabelas.com,Pflueger President XT Spinning Reel,59.99,USD,/fishing/reels,Pflueger,320-06,promotable
+REEL-2040,cabelas.com,"Spinning reel, 3000 size",79.99,USD,/fishing/reels,Shimano,320-01,promotable
+REEL-2049,cabelas.com,"Spinning reel, 3000 size (clearance)",59.99,USD,/fishing/reels,Shimano,320-01,clearance|promotable
+BP-FISH-004,cabelas.com,St. Croix Bass X Casting Rod,129.99,USD,/fishing/rods/casting,St. Croix,310-04,promotable
+ROD-1002,cabelas.com,"Casting rod, 6 ft 6 in",119.99,USD,/fishing/rods/casting,Bass Pro Shops,310-14,promotable
+BP-FLY-001,cabelas.com,White River Fly Shop CGR Fiberglass Fly Rod,89.99,USD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-002,cabelas.com,White River Fly Shop Riseform Fly Rod,69.99,USD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FLY-003,cabelas.com,White River Fly Shop Prestige Fly Rod,94.99,USD,/fishing/rods/fly,White River Fly Shop,311-05,promotable
+BP-FLY-004,cabelas.com,World Wide Sportsman Deceiver Fly Rod,99.99,USD,/fishing/rods/fly,World Wide Sportsman,311-06,promotable
+BP-FLY-005,cabelas.com,World Wide Sportsman Gold Cup Fly Rod,219.99,USD,/fishing/rods/fly,World Wide Sportsman,311-07,promotable
+BP-FLY-006,cabelas.com,White River Fly Shop Heat Fly Rod,119.99,USD,/fishing/rods/fly,White River Fly Shop,311-01,promotable
+BP-FLY-007,cabelas.com,World Wide Sportsman Landmark Fly Rod,219.99,USD,/fishing/rods/fly,World Wide Sportsman,311-02,promotable
+BP-FLY-008,cabelas.com,White River Fly Shop Vanguard Fly Rod,149.99,USD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-009,cabelas.com,White River Fly Shop Vanguard Fly Combo,269.99,USD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FISH-001,cabelas.com,Ugly Stik GX2 Spinning Rod,32.99,USD,/fishing/rods/spinning,Shakespeare,310-01,clearance
+BP-FISH-016,cabelas.com,Shakespeare Micro Series Ultralight Spinning Rod,49.99,USD,/fishing/rods/spinning,Shakespeare,310-02,promotable
+BP-FISH-018,cabelas.com,Penn Battalion II Surf Spinning Rod,109.99,USD,/fishing/rods/spinning,Penn,310-04,promotable
+ROD-1001,cabelas.com,"Spinning rod, 7 ft",129.99,USD,/fishing/rods/spinning,Bass Pro Shops,310-12,promotable
+BP-FISH-010,cabelas.com,Plano Guide Series 3700 Tackle Bag,49.99,USD,/fishing/tackle-storage,Plano,343-07,clearance
+BP-FISH-014,cabelas.com,Simms Freestone Stockingfoot Waders,249.99,USD,/fishing/waders,Simms,360-04,promotable
+GIFT-0001,cabelas.com,Logo can cooler,4.99,USD,/gifts/promotional,Bass Pro Shops,900-01,promotable
+BP-HUNT-004,cabelas.com,Winchester .30-06 Springfield 150gr Power-Point,28.99,USD,/hunting/ammunition,Winchester,401-07,
+BP-ARCH-001,cabelas.com,BlackOut 5-Pin Bow Sight With React Technology,109.99,USD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-002,cabelas.com,BlackOut Bow Stabilizer,54.99,USD,/hunting/archery-accessories,BlackOut,409-01,promotable
+BP-ARCH-003,cabelas.com,Q.A.D. ULTRAREST Hunter Arrow Rest,69.99,USD,/hunting/archery-accessories,Q.A.D.,409-02,promotable
+BP-ARCH-004,cabelas.com,Trophy Ridge Hex Light Quiver,99.99,USD,/hunting/archery-accessories,Trophy Ridge,409-03,promotable
+BP-ARCH-005,cabelas.com,BlackOut Whisker Biscuit Arrow Rest,39.99,USD,/hunting/archery-accessories,BlackOut,409-04,promotable
+BP-ARCH-006,cabelas.com,Pine Ridge Archery Big Gripper Arrow Puller,12.99,USD,/hunting/archery-accessories,Pine Ridge Archery,409-05,promotable
+BP-ARCH-007,cabelas.com,BlackOut Mega Braid Bow Sling,21.99,USD,/hunting/archery-accessories,BlackOut,409-06,promotable
+BP-ARCH-008,cabelas.com,BlackOut 5-Arrow Quiver,34.99,USD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-009,cabelas.com,Trophy Ridge SWFT Single Pin Bow Sight,89.99,USD,/hunting/archery-accessories,Trophy Ridge,409-01,promotable
+BP-HUNT-008,cabelas.com,Primos Hunting Double Bull SurroundView Blind,349.99,USD,/hunting/blinds,Primos,405-04,promotable
+BP-HUNT-009,cabelas.com,RedHead Bone-Dry Insulated Rubber Boots,69.99,USD,/hunting/boots,RedHead,406-05,clearance
+BP-BOW-001,cabelas.com,Bear Archery Legit NXT RTH Compound Bow Package,479.99,USD,/hunting/bows,Bear Archery,408-05,promotable
+BP-BOW-002,cabelas.com,BlackOut NV-3 Compound Bow,799.99,USD,/hunting/bows,BlackOut,408-06,promotable
+BP-BOW-003,cabelas.com,BlackOut Distinct XT Compound Bow Package,549.99,USD,/hunting/bows,BlackOut,408-07,promotable
+BP-BOW-004,cabelas.com,Bear Archery Cruzer G3 Black RTH Compound Bow Package,319.97,USD,/hunting/bows,Bear Archery,408-01,promotable
+BP-BOW-006,cabelas.com,BlackOut NV-S Compound Bow,999.99,USD,/hunting/bows,BlackOut,408-03,promotable
+BP-BOW-007,cabelas.com,Barnett XP400 Midnight Edition Crossbow Package With Crank Cocking Device,699.00,USD,/hunting/bows,Barnett,408-04,promotable
+BP-BOW-008,cabelas.com,BlackOut Epic NT Compound Bow Package,649.99,USD,/hunting/bows,BlackOut,408-05,promotable
+BP-BOW-009,cabelas.com,BlackOut Faze 2 Compound Bow Package,349.99,USD,/hunting/bows,BlackOut,408-06,promotable
+BP-HUNT-010,cabelas.com,Hunters Specialties Strut Turkey Call Kit,34.99,USD,/hunting/calls-decoys,Hunters Specialties,407-06,promotable
+BP-HUNT-005,cabelas.com,Leupold VX-3HD 3.5-10x40 Rifle Scope,449.99,USD,/hunting/optics,Leupold,402-01,promotable
+BP-HUNT-003,cabelas.com,Browning X-Bolt Hunter Bolt-Action Rifle,899.99,USD,/hunting/rifles,Browning,400-06,
+BP-HUNT-007,cabelas.com,Primos Proof Gen 2 Trail Camera,69.99,USD,/hunting/trail-cameras,Primos,404-03,promotable
+BP-HUNT-006,cabelas.com,Muddy Nexus 20ft Ladder Treestand,159.99,USD,/hunting/treestands,Muddy,403-02,clearance
+TKY-2010,cabelas.com,Box turkey call,34.99,USD,/hunting/turkey,Primos,430-01,promotable
+TKY-2020,cabelas.com,Slate turkey call,29.99,USD,/hunting/turkey,Primos,430-02,promotable
+BP-BIKE-001,cabelas.com,"Ascend Zion Hardtail 29"" Mountain Bike",499.99,USD,/outdoor-rec/bikes,Ascend,804-02,promotable
+BP-BIKE-002,cabelas.com,Razor MX650 Dirt Rocket 36V Sport Electric Dirt Bike,899.99,USD,/outdoor-rec/bikes,Razor,804-03,promotable
+BP-BIKE-003,cabelas.com,Razor MX125 Dirt Rocket Electric Bike For Kids,309.99,USD,/outdoor-rec/bikes,Razor,804-04,promotable
+BP-BIKE-004,cabelas.com,"Mongoose Grafton 26"" Mountain Bike",329.99,USD,/outdoor-rec/bikes,Mongoose,804-05,promotable
+BP-OUTR-005,cabelas.com,Cabela's Alaskan Guide Series Tent Cot,329.99,USD,/outdoor-rec/camp-bedding,Cabela's,803-07,promotable
+BP-OUTR-003,cabelas.com,UCO Stormproof Match Kit,5.99,USD,/outdoor-rec/fire-starters,UCO,802-05,clearance
+BP-OUTR-002,cabelas.com,Gerber StrongArm Fixed Blade Knife,59.99,USD,/outdoor-rec/knives,Gerber,801-04,promotable
+BP-OUTR-001,cabelas.com,Leupold BX-4 Pro Guide HD 10x42 Binoculars,399.99,USD,/outdoor-rec/optics,Leupold,800-03,promotable
+BP-OUTR-004,cabelas.com,Bushnell Forge 4.5-27x50 Riflescope,569.99,USD,/outdoor-rec/optics,Bushnell,800-06,promotable
+BP-APRL-002,basspro.ca,Under Armour ColdGear Base 3.0 Crew,84.99,CAD,/apparel/base-layers,Under Armour,701-06,promotable
+BP-APRL-003,basspro.ca,"Danner Pronghorn 8"" Insulated Hunting Boot",324.99,CAD,/apparel/boots,Danner,702-07,promotable
+BP-APRL-005,basspro.ca,ScentLok Savanna Aero Crosshair Jacket,194.99,CAD,/apparel/camo-clothing,ScentLok,704-02,clearance
+BP-APRL-004,basspro.ca,Ascend Deluxe Fishing Shirt,51.99,CAD,/apparel/fishing-apparel,Ascend,703-01,promotable
+BP-APRL-001,basspro.ca,RedHead Bone-Dry Camo Rain Jacket,129.99,CAD,/apparel/jackets,RedHead,700-05,promotable
+SOCK-6100,basspro.ca,Merino wool hiking socks,19.99,CAD,/apparel/socks,RedHead,700-09,promotable
+BP-BOAT-003,basspro.ca,Stohlquist FIT Adult PFD Life Jacket,90.99,CAD,/boating/life-jackets,Stohlquist,603-01,promotable
+BP-BOAT-002,basspro.ca,Interstate Deep Cycle Marine Battery,155.99,CAD,/boating/marine-batteries,Interstate,602-07,promotable
+BP-BOAT-004,basspro.ca,Humminbird HELIX 7 CHIRP MEGA SI GPS G4N,1039.99,CAD,/boating/marine-electronics,Humminbird,604-02,
+BP-BOAT-005,basspro.ca,MotorGuide Xi3 55 FW Trolling Motor,1559.99,CAD,/boating/trolling-motors,MotorGuide,600-03,
+BP-FISH-012,basspro.ca,Minn Kota Riptide Terrova 55 Trolling Motor,1949.99,CAD,/boating/trolling-motors,Minn Kota,600-02,
+BP-CAMP-004,basspro.ca,Camp Chef Explorer 2-Burner Stove,207.99,CAD,/camping/camp-cooking,Camp Chef,500-07,promotable
+BP-CAMP-009,basspro.ca,Jetboil Flash Cooking System,149.99,CAD,/camping/camp-cooking,Jetboil,500-05,promotable
+BP-CAMP-021,basspro.ca,Coleman Classic 1-Burner Propane Stove,38.99,CAD,/camping/camp-cooking,Coleman,500-04,promotable
+BP-CAMP-022,basspro.ca,Weber Q1200 Portable Gas Grill,116.99,CAD,/camping/camp-cooking,Weber,500-05,promotable
+BP-CAMP-028,basspro.ca,Stanley Adventure Base Camp Cook Set,58.99,CAD,/camping/camp-cooking,Stanley,500-04,promotable
+BP-CAMP-029,basspro.ca,GSI Outdoors Pinnacle Camper Cookset,103.99,CAD,/camping/camp-cooking,GSI Outdoors,500-05,promotable
+BP-CAMP-006,basspro.ca,Alps Mountaineering King Kong Chair,71.99,CAD,/camping/camp-furniture,ALPS Mountaineering,502-02,promotable
+BP-CAMP-023,basspro.ca,Ozark Trail Basic Quad Folding Chair,32.99,CAD,/camping/camp-furniture,Bass Pro Shops,502-06,promotable
+BP-CAMP-024,basspro.ca,Cabelas Camp Table Aluminum Roll-Top,77.99,CAD,/camping/camp-furniture,Cabela's,502-07,promotable
+BP-CAMP-025,basspro.ca,ENO DoubleNest Hammock,45.99,CAD,/camping/camp-furniture,ENO,502-01,promotable
+BP-COOL-001,basspro.ca,Bass Pro Shops Polar Cap XXL Cooler,584.99,CAD,/camping/coolers,Bass Pro Shops,508-06,promotable
+BP-COOL-002,basspro.ca,Bass Pro Shops 11-Qt. Hard-Sided Cooler,38.99,CAD,/camping/coolers,Bass Pro Shops,508-07,promotable
+BP-COOL-003,basspro.ca,Bass Pro Shops Polar Cap Large Cooler,389.99,CAD,/camping/coolers,Bass Pro Shops,508-01,promotable
+BP-COOL-004,basspro.ca,Bass Pro Shops The Big Bobber Floating Cooler,64.99,CAD,/camping/coolers,Bass Pro Shops,508-02,promotable
+BP-COOL-005,basspro.ca,YETI Tundra 45 Cooler,422.99,CAD,/camping/coolers,YETI,508-03,
+BP-COOL-006,basspro.ca,YETI Tundra Haul Wheeled Cooler,584.99,CAD,/camping/coolers,YETI,508-04,
+BP-COOL-007,basspro.ca,Igloo Thermoelectric IE 42 Roller Cooler,324.99,CAD,/camping/coolers,Igloo,508-05,promotable
+BP-COOL-008,basspro.ca,YETI Tundra 35 Cooler,383.99,CAD,/camping/coolers,YETI,508-06,
+BP-COOL-009,basspro.ca,Igloo Polar 120 Cooler,129.99,CAD,/camping/coolers,Igloo,508-07,promotable
+BP-CAMP-008,basspro.ca,Stanley Classic Vacuum Bottle 1.5qt,51.99,CAD,/camping/drinkware,Stanley,504-04,promotable
+BP-CAMP-031,basspro.ca,UST BlastMatch Fire Starter,19.99,CAD,/camping/fire-starting,UST,507-07,promotable
+BP-CAMP-007,basspro.ca,Ascend H10 Sit-In Kayak,519.99,CAD,/camping/kayaks,Ascend,503-03,promotable
+BP-CAMP-005,basspro.ca,Coleman Quad LED Lantern,38.99,CAD,/camping/lighting,Coleman,501-01,clearance
+BP-CAMP-026,basspro.ca,Black Diamond Spot 400 Headlamp,32.99,CAD,/camping/lighting,Black Diamond,501-02,promotable
+BP-CAMP-027,basspro.ca,Luci Solar Inflatable String Lights,25.99,CAD,/camping/lighting,Luci,501-03,promotable
+BP-CAMP-030,basspro.ca,Adventure Medical Kits Ultralight First Aid Kit,25.99,CAD,/camping/safety,Adventure Medical Kits,506-06,promotable
+BP-SLEEP-001,basspro.ca,Cabela's Mountain Trapper 0°F Sleeping Bag,181.99,CAD,/camping/sleeping-bags,Cabela's,510-03,promotable
+BP-SLEEP-002,basspro.ca,ActionHeat 5V Battery-Heated Sleeping Bag,259.99,CAD,/camping/sleeping-bags,ActionHeat,510-04,promotable
+BP-SLEEP-003,basspro.ca,Bass Pro Shops 30° Rectangular Sleeping Bag For Kids,38.99,CAD,/camping/sleeping-bags,Bass Pro Shops,510-05,promotable
+BP-SLEEP-004,basspro.ca,Bass Pro Shops 0° Canvas Rectangular Sleeping Bag,116.99,CAD,/camping/sleeping-bags,Bass Pro Shops,510-06,promotable
+BP-SLEEP-005,basspro.ca,TETON Sports Fahrenheit 20°F Mammoth Double Sleeping Bag,259.99,CAD,/camping/sleeping-bags,TETON Sports,510-07,promotable
+BP-SLEEP-006,basspro.ca,Ascend Tsunami 0° Mummy Sleeping Bag,155.99,CAD,/camping/sleeping-bags,Ascend,510-01,promotable
+BP-SLEEP-007,basspro.ca,Kelty Mistral 20°F Mummy Sleeping Bag,103.99,CAD,/camping/sleeping-bags,Kelty,510-02,promotable
+BP-SLEEP-008,basspro.ca,Bass Pro Shops 30° Mummy Sleeping Bag For Kids,51.99,CAD,/camping/sleeping-bags,Bass Pro Shops,510-03,promotable
+BP-SLEEP-009,basspro.ca,Cabela's Outfitter XL -20°F Rectangular Sleeping Bag,220.99,CAD,/camping/sleeping-bags,Cabela's,510-04,promotable
+BP-CAMP-015,basspro.ca,Ozark Trail Foam Sleeping Pad,38.99,CAD,/camping/sleeping-pads,Bass Pro Shops,505-01,promotable
+BP-CAMP-016,basspro.ca,Cabelas Outfitter XL Self-Inflating Sleeping Pad,90.99,CAD,/camping/sleeping-pads,Cabela's,505-02,promotable
+BP-CAMP-017,basspro.ca,Ascend Stratus Insulated Air Sleeping Pad,168.99,CAD,/camping/sleeping-pads,Ascend,505-03,promotable
+BP-CAMP-032,basspro.ca,Therm-a-Rest Compressible Camp Pillow,32.99,CAD,/camping/sleeping-pads,Therm-a-Rest,505-01,promotable
+BP-TENT-001,basspro.ca,Cabela's Alaskan Guide Model Geodesic 4-Person Tent,519.99,CAD,/camping/tents,Cabela's,509-01,promotable
+BP-TENT-002,basspro.ca,Cabela's Alaskan Guide Model Geodesic 8-Person Tent,779.99,CAD,/camping/tents,Cabela's,509-02,promotable
+BP-TENT-003,basspro.ca,Cabela's Alaskan Guide Model Geodesic 6-Person Tent,649.99,CAD,/camping/tents,Cabela's,509-03,promotable
+BP-TENT-004,basspro.ca,Core Equipment 11-Person Cabin Tent With Screen Room,441.99,CAD,/camping/tents,Core Equipment,509-04,promotable
+BP-TENT-005,basspro.ca,Napier Backroadz 19 Series Truck Tent,246.99,CAD,/camping/tents,Napier,509-05,promotable
+BP-TENT-006,basspro.ca,Bass Pro Shops 1-Person Scout Tent,38.99,CAD,/camping/tents,Bass Pro Shops,509-06,promotable
+BP-TENT-007,basspro.ca,White Duck Outdoors Regatta 13' Water-Repellent Bell Tent,1000.99,CAD,/camping/tents,White Duck Outdoors,509-07,promotable
+BP-TENT-008,basspro.ca,Kodiak Canvas Stove-Ready 8-Person 12x12 Cabin Lodge Tent,1299.99,CAD,/camping/tents,Kodiak Canvas,509-01,promotable
+BP-TENT-009,basspro.ca,Cabela's Ultimate Alaknak 2.0 12'X20' Outfitter Tent,1819.99,CAD,/camping/tents,Cabela's,509-02,promotable
+OTHER-0001,basspro.ca,"Tent footprint, 2-person",25.99,CAD,/camping/tents,Bass Pro Shops,500-01,promotable
+BP-FISH-026,basspro.ca,Bass Pro Shops Stainless Steel Fishing Pliers,19.99,CAD,/fishing/accessories,Bass Pro Shops,342-01,clearance
+BP-FISH-027,basspro.ca,Frabill Trophy Haul Fishing Net,38.99,CAD,/fishing/accessories,Frabill,342-02,promotable
+BP-BOAT-006,basspro.ca,Bass Pro Shops Tourney Special Baitcast Combo,103.99,CAD,/fishing/combos,Bass Pro Shops,321-04,promotable
+BP-FISH-015,basspro.ca,Johnny Morris Carbonlite 2.0 Baitcasting Combo,259.99,CAD,/fishing/combos,Bass Pro Shops,321-05,promotable
+BP-FISH-017,basspro.ca,Bass Pro Shops Kids Beginner Spincast Combo,38.99,CAD,/fishing/combos,Bass Pro Shops,321-03,promotable
+BP-FISH-011,basspro.ca,Garmin Striker Vivid 4cv Fish Finder,259.99,CAD,/fishing/electronics,Garmin,350-01,
+BP-FISH-013,basspro.ca,Lowrance HOOK Reveal 7 Fish Finder,584.99,CAD,/fishing/electronics,Lowrance,350-03,
+BP-FLY-011,basspro.ca,White River Fly Shop 12-Piece Classic Trout Fly Assortment,25.99,CAD,/fishing/fly-accessories,White River Fly Shop,341-06,promotable
+BP-FLY-012,basspro.ca,White River Fly Shop Pre-Looped Trout Tapered Leader,12.99,CAD,/fishing/fly-accessories,White River Fly Shop,341-07,promotable
+BP-FLY-013,basspro.ca,White River Fly Shop Deluxe Fly-Tying Kit With Case,90.99,CAD,/fishing/fly-accessories,White River Fly Shop,341-01,promotable
+BP-FLY-015,basspro.ca,White River Fly Shop Prestige Rubber Bag Trout Net,77.99,CAD,/fishing/fly-accessories,White River Fly Shop,341-03,promotable
+BP-FLY-010,basspro.ca,White River Fly Shop Riseform Fly Combo,129.99,CAD,/fishing/fly-combos,White River Fly Shop,322-05,promotable
+BP-FLY-014,basspro.ca,White River Fly Shop Prestige Fly Combo,207.99,CAD,/fishing/fly-combos,White River Fly Shop,322-02,promotable
+BP-FISH-005,basspro.ca,Berkley Trilene XL Monofilament Line,9.99,CAD,/fishing/line,Berkley,340-05,promotable
+BP-FISH-006,basspro.ca,PowerPro Spectra Braided Line,25.99,CAD,/fishing/line,PowerPro,340-06,promotable
+BP-FISH-021,basspro.ca,Seaguar Red Label Fluorocarbon Line,16.99,CAD,/fishing/line,Seaguar,340-07,promotable
+LINE-0550,basspro.ca,"Braided line, 30 lb, 150 yd",32.99,CAD,/fishing/line,PowerPro,340-01,promotable
+BP-LURE-001,basspro.ca,Bass Pro Shops XPS Swerve Glide Brushtail Swimbait,24.99,CAD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-002,basspro.ca,Bass Pro Shops Tourney Special 8-Piece Lure Kit,25.99,CAD,/fishing/lures,Bass Pro Shops,330-05,promotable
+BP-LURE-003,basspro.ca,Bass Pro Shops Go-To Swim Minnow,6.99,CAD,/fishing/lures,Bass Pro Shops,330-06,promotable
+BP-LURE-004,basspro.ca,XPS Chatterbomb Bladed Jig By Z-Man,11.99,CAD,/fishing/lures,Bass Pro Shops,330-07,promotable
+BP-LURE-005,basspro.ca,XPS Urch-X,12.99,CAD,/fishing/lures,Bass Pro Shops,330-01,promotable
+BP-LURE-006,basspro.ca,XPS Creature Kit,38.99,CAD,/fishing/lures,Bass Pro Shops,330-02,promotable
+BP-LURE-007,basspro.ca,Bass Pro Shops XPS Rattle Shad Kit,32.99,CAD,/fishing/lures,Bass Pro Shops,330-03,promotable
+BP-LURE-008,basspro.ca,Bass Pro Shops Ribbontail Worm,6.99,CAD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-009,basspro.ca,Bass Pro Shops Dressed Casting Spoon,7.99,CAD,/fishing/lures,Bass Pro Shops,330-05,promotable
+LURE-0310,basspro.ca,"Soft plastic swimbait, 5-pack",12.99,CAD,/fishing/lures,Berkley,330-01,promotable
+LURE-0420,basspro.ca,"Soft plastic worms, 10-pack",8.49,CAD,/fishing/lures,Bass Pro Shops,330-02,clearance
+BP-FISH-002,basspro.ca,Shimano Stradic FL 2500 Spinning Reel,285.99,CAD,/fishing/reels,Shimano,320-02,promotable
+BP-FISH-003,basspro.ca,Abu Garcia Revo X Baitcasting Reel,129.99,CAD,/fishing/reels,Abu Garcia,320-03,promotable
+BP-FISH-019,basspro.ca,Bass Pro Shops Micro Lite Spinning Reel,38.99,CAD,/fishing/reels,Bass Pro Shops,320-05,promotable
+BP-FISH-020,basspro.ca,Pflueger President XT Spinning Reel,77.99,CAD,/fishing/reels,Pflueger,320-06,promotable
+REEL-2040,basspro.ca,"Spinning reel, 3000 size",104.99,CAD,/fishing/reels,Shimano,320-01,promotable
+BP-FISH-004,basspro.ca,St. Croix Bass X Casting Rod,168.99,CAD,/fishing/rods/casting,St. Croix,310-04,promotable
+ROD-1002,basspro.ca,"Casting rod, 6 ft 6 in",154.99,CAD,/fishing/rods/casting,Bass Pro Shops,310-14,promotable
+BP-FLY-001,basspro.ca,White River Fly Shop CGR Fiberglass Fly Rod,116.99,CAD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-002,basspro.ca,White River Fly Shop Riseform Fly Rod,90.99,CAD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FLY-003,basspro.ca,White River Fly Shop Prestige Fly Rod,129.99,CAD,/fishing/rods/fly,White River Fly Shop,311-05,promotable
+BP-FLY-004,basspro.ca,World Wide Sportsman Deceiver Fly Rod,129.99,CAD,/fishing/rods/fly,World Wide Sportsman,311-06,promotable
+BP-FLY-005,basspro.ca,World Wide Sportsman Gold Cup Fly Rod,285.99,CAD,/fishing/rods/fly,World Wide Sportsman,311-07,promotable
+BP-FLY-006,basspro.ca,White River Fly Shop Heat Fly Rod,155.99,CAD,/fishing/rods/fly,White River Fly Shop,311-01,promotable
+BP-FLY-007,basspro.ca,World Wide Sportsman Landmark Fly Rod,285.99,CAD,/fishing/rods/fly,World Wide Sportsman,311-02,promotable
+BP-FLY-008,basspro.ca,White River Fly Shop Vanguard Fly Rod,194.99,CAD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-009,basspro.ca,White River Fly Shop Vanguard Fly Combo,350.99,CAD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FISH-001,basspro.ca,Ugly Stik GX2 Spinning Rod,42.99,CAD,/fishing/rods/spinning,Shakespeare,310-01,clearance
+BP-FISH-016,basspro.ca,Shakespeare Micro Series Ultralight Spinning Rod,64.99,CAD,/fishing/rods/spinning,Shakespeare,310-02,promotable
+BP-FISH-018,basspro.ca,Penn Battalion II Surf Spinning Rod,142.99,CAD,/fishing/rods/spinning,Penn,310-04,promotable
+ROD-1001,basspro.ca,"Spinning rod, 7 ft",169.99,CAD,/fishing/rods/spinning,Bass Pro Shops,310-12,promotable
+BP-FISH-010,basspro.ca,Plano Guide Series 3700 Tackle Bag,64.99,CAD,/fishing/tackle-storage,Plano,343-07,clearance
+BP-FISH-014,basspro.ca,Simms Freestone Stockingfoot Waders,324.99,CAD,/fishing/waders,Simms,360-04,promotable
+BP-ARCH-001,basspro.ca,BlackOut 5-Pin Bow Sight With React Technology,142.99,CAD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-002,basspro.ca,BlackOut Bow Stabilizer,71.99,CAD,/hunting/archery-accessories,BlackOut,409-01,promotable
+BP-ARCH-003,basspro.ca,Q.A.D. ULTRAREST Hunter Arrow Rest,90.99,CAD,/hunting/archery-accessories,Q.A.D.,409-02,promotable
+BP-ARCH-004,basspro.ca,Trophy Ridge Hex Light Quiver,129.99,CAD,/hunting/archery-accessories,Trophy Ridge,409-03,promotable
+BP-ARCH-005,basspro.ca,BlackOut Whisker Biscuit Arrow Rest,51.99,CAD,/hunting/archery-accessories,BlackOut,409-04,promotable
+BP-ARCH-006,basspro.ca,Pine Ridge Archery Big Gripper Arrow Puller,16.99,CAD,/hunting/archery-accessories,Pine Ridge Archery,409-05,promotable
+BP-ARCH-007,basspro.ca,BlackOut Mega Braid Bow Sling,28.99,CAD,/hunting/archery-accessories,BlackOut,409-06,promotable
+BP-ARCH-008,basspro.ca,BlackOut 5-Arrow Quiver,45.99,CAD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-009,basspro.ca,Trophy Ridge SWFT Single Pin Bow Sight,116.99,CAD,/hunting/archery-accessories,Trophy Ridge,409-01,promotable
+BP-HUNT-008,basspro.ca,Primos Hunting Double Bull SurroundView Blind,454.99,CAD,/hunting/blinds,Primos,405-04,promotable
+BP-HUNT-009,basspro.ca,RedHead Bone-Dry Insulated Rubber Boots,90.99,CAD,/hunting/boots,RedHead,406-05,clearance
+BP-BOW-001,basspro.ca,Bear Archery Legit NXT RTH Compound Bow Package,623.99,CAD,/hunting/bows,Bear Archery,408-05,promotable
+BP-BOW-002,basspro.ca,BlackOut NV-3 Compound Bow,1039.99,CAD,/hunting/bows,BlackOut,408-06,promotable
+BP-BOW-003,basspro.ca,BlackOut Distinct XT Compound Bow Package,714.99,CAD,/hunting/bows,BlackOut,408-07,promotable
+BP-BOW-004,basspro.ca,Bear Archery Cruzer G3 Black RTH Compound Bow Package,415.99,CAD,/hunting/bows,Bear Archery,408-01,promotable
+BP-BOW-005,basspro.ca,Bear Archery Legend 30 RTH Compound Bow Package,649.99,CAD,/hunting/bows,Bear Archery,408-02,promotable
+BP-BOW-006,basspro.ca,BlackOut NV-S Compound Bow,1299.99,CAD,/hunting/bows,BlackOut,408-03,promotable
+BP-BOW-007,basspro.ca,Barnett XP400 Midnight Edition Crossbow Package With Crank Cocking Device,908.99,CAD,/hunting/bows,Barnett,408-04,promotable
+BP-BOW-008,basspro.ca,BlackOut Epic NT Compound Bow Package,844.99,CAD,/hunting/bows,BlackOut,408-05,promotable
+BP-BOW-009,basspro.ca,BlackOut Faze 2 Compound Bow Package,454.99,CAD,/hunting/bows,BlackOut,408-06,promotable
+BP-HUNT-010,basspro.ca,Hunters Specialties Strut Turkey Call Kit,45.99,CAD,/hunting/calls-decoys,Hunters Specialties,407-06,promotable
+BP-HUNT-005,basspro.ca,Leupold VX-3HD 3.5-10x40 Rifle Scope,584.99,CAD,/hunting/optics,Leupold,402-01,promotable
+BP-HUNT-007,basspro.ca,Primos Proof Gen 2 Trail Camera,90.99,CAD,/hunting/trail-cameras,Primos,404-03,promotable
+BP-HUNT-006,basspro.ca,Muddy Nexus 20ft Ladder Treestand,207.99,CAD,/hunting/treestands,Muddy,403-02,clearance
+BP-BIKE-001,basspro.ca,"Ascend Zion Hardtail 29"" Mountain Bike",649.99,CAD,/outdoor-rec/bikes,Ascend,804-02,promotable
+BP-BIKE-002,basspro.ca,Razor MX650 Dirt Rocket 36V Sport Electric Dirt Bike,1169.99,CAD,/outdoor-rec/bikes,Razor,804-03,promotable
+BP-BIKE-003,basspro.ca,Razor MX125 Dirt Rocket Electric Bike For Kids,402.99,CAD,/outdoor-rec/bikes,Razor,804-04,promotable
+BP-BIKE-004,basspro.ca,"Mongoose Grafton 26"" Mountain Bike",428.99,CAD,/outdoor-rec/bikes,Mongoose,804-05,promotable
+BP-OUTR-005,basspro.ca,Cabela's Alaskan Guide Series Tent Cot,428.99,CAD,/outdoor-rec/camp-bedding,Cabela's,803-07,promotable
+BP-OUTR-003,basspro.ca,UCO Stormproof Match Kit,7.99,CAD,/outdoor-rec/fire-starters,UCO,802-05,clearance
+BP-OUTR-002,basspro.ca,Gerber StrongArm Fixed Blade Knife,77.99,CAD,/outdoor-rec/knives,Gerber,801-04,promotable
+BP-OUTR-001,basspro.ca,Leupold BX-4 Pro Guide HD 10x42 Binoculars,519.99,CAD,/outdoor-rec/optics,Leupold,800-03,promotable
+BP-OUTR-004,basspro.ca,Bushnell Forge 4.5-27x50 Riflescope,779.99,CAD,/outdoor-rec/optics,Bushnell,800-06,promotable
+BP-APRL-003,mackspw.com,"Danner Pronghorn 8"" Insulated Hunting Boot",249.99,USD,/apparel/boots,Danner,702-07,promotable
+BP-APRL-005,mackspw.com,ScentLok Savanna Aero Crosshair Jacket,149.99,USD,/apparel/camo-clothing,ScentLok,704-02,clearance
+BP-BOAT-003,mackspw.com,Stohlquist FIT Adult PFD Life Jacket,69.99,USD,/boating/life-jackets,Stohlquist,603-01,promotable
+BP-FISH-014,mackspw.com,Simms Freestone Stockingfoot Waders,249.99,USD,/fishing/waders,Simms,360-04,promotable
+MPW-1009,mackspw.com,"Steel shot 12 ga, 25 shells",34.99,USD,/hunting/ammunition,Winchester,498-01,
+BP-HUNT-008,mackspw.com,Primos Hunting Double Bull SurroundView Blind,349.99,USD,/hunting/blinds,Primos,405-04,promotable
+MPW-1006,mackspw.com,Layout blind,199.99,USD,/hunting/blinds,Avery,495-01,promotable
+MPW-1010,mackspw.com,Dog blind,119.99,USD,/hunting/blinds,Avery,499-01,promotable
+BP-HUNT-009,mackspw.com,RedHead Bone-Dry Insulated Rubber Boots,69.99,USD,/hunting/boots,RedHead,406-05,clearance
+BP-HUNT-010,mackspw.com,Hunters Specialties Strut Turkey Call Kit,34.99,USD,/hunting/calls-decoys,Hunters Specialties,407-06,promotable
+MPW-1001,mackspw.com,"Mallard full-body decoys, 6-pack",129.99,USD,/hunting/decoys,Avery,490-01,promotable
+MPW-1002,mackspw.com,"Floating mallard decoys, 12-pack",89.99,USD,/hunting/decoys,Higdon,491-01,promotable
+MPW-1003,mackspw.com,"Decoy anchor rig, 12-pack",19.99,USD,/hunting/decoys,Rig'Em Right,492-01,promotable
+MPW-1004,mackspw.com,Double-reed duck call,59.99,USD,/hunting/duck-calls,Zink,493-01,promotable
+MPW-1005,mackspw.com,Goose flute call,79.99,USD,/hunting/duck-calls,Zink,494-01,promotable
+MPW-1008,mackspw.com,"Waterfowl wader, 1600 g",299.99,USD,/hunting/waders,Drake Waterfowl,497-01,promotable
+MPW-1007,mackspw.com,Insulated waterfowl jacket,249.99,USD,/hunting/waterfowl-apparel,Drake Waterfowl,496-01,promotable
+BP-APRL-002,m.basspro.com,Under Armour ColdGear Base 3.0 Crew,64.99,USD,/apparel/base-layers,Under Armour,701-06,promotable
+BP-APRL-003,m.basspro.com,"Danner Pronghorn 8"" Insulated Hunting Boot",249.99,USD,/apparel/boots,Danner,702-07,promotable
+BP-APRL-005,m.basspro.com,ScentLok Savanna Aero Crosshair Jacket,149.99,USD,/apparel/camo-clothing,ScentLok,704-02,clearance
+BP-APRL-004,m.basspro.com,Ascend Deluxe Fishing Shirt,39.99,USD,/apparel/fishing-apparel,Ascend,703-01,promotable
+BP-APRL-001,m.basspro.com,RedHead Bone-Dry Camo Rain Jacket,99.99,USD,/apparel/jackets,RedHead,700-05,promotable
+SOCK-6100,m.basspro.com,Merino wool hiking socks,14.99,USD,/apparel/socks,RedHead,700-09,promotable
+BP-BOAT-001,m.basspro.com,Tracker Pro Team 175 TXW Bass Boat,22999.00,USD,/boating/bass-boats,Tracker,601-06,promotable
+BP-BOAT-003,m.basspro.com,Stohlquist FIT Adult PFD Life Jacket,69.99,USD,/boating/life-jackets,Stohlquist,603-01,promotable
+BP-BOAT-002,m.basspro.com,Interstate Deep Cycle Marine Battery,119.99,USD,/boating/marine-batteries,Interstate,602-07,promotable
+BP-BOAT-004,m.basspro.com,Humminbird HELIX 7 CHIRP MEGA SI GPS G4N,799.99,USD,/boating/marine-electronics,Humminbird,604-02,
+BP-BOAT-005,m.basspro.com,MotorGuide Xi3 55 FW Trolling Motor,1199.99,USD,/boating/trolling-motors,MotorGuide,600-03,
+BP-FISH-012,m.basspro.com,Minn Kota Riptide Terrova 55 Trolling Motor,1499.99,USD,/boating/trolling-motors,Minn Kota,600-02,
+BP-CAMP-004,m.basspro.com,Camp Chef Explorer 2-Burner Stove,159.99,USD,/camping/camp-cooking,Camp Chef,500-07,promotable
+BP-CAMP-009,m.basspro.com,Jetboil Flash Cooking System,114.99,USD,/camping/camp-cooking,Jetboil,500-05,promotable
+BP-CAMP-022,m.basspro.com,Weber Q1200 Portable Gas Grill,89.99,USD,/camping/camp-cooking,Weber,500-05,promotable
+BP-CAMP-028,m.basspro.com,Stanley Adventure Base Camp Cook Set,44.99,USD,/camping/camp-cooking,Stanley,500-04,promotable
+BP-CAMP-029,m.basspro.com,GSI Outdoors Pinnacle Camper Cookset,79.99,USD,/camping/camp-cooking,GSI Outdoors,500-05,promotable
+BP-CAMP-006,m.basspro.com,Alps Mountaineering King Kong Chair,54.99,USD,/camping/camp-furniture,ALPS Mountaineering,502-02,promotable
+BP-CAMP-023,m.basspro.com,Ozark Trail Basic Quad Folding Chair,24.99,USD,/camping/camp-furniture,Bass Pro Shops,502-06,promotable
+BP-CAMP-025,m.basspro.com,ENO DoubleNest Hammock,34.99,USD,/camping/camp-furniture,ENO,502-01,promotable
+BP-COOL-001,m.basspro.com,Bass Pro Shops Polar Cap XXL Cooler,449.99,USD,/camping/coolers,Bass Pro Shops,508-06,promotable
+BP-COOL-002,m.basspro.com,Bass Pro Shops 11-Qt. Hard-Sided Cooler,29.99,USD,/camping/coolers,Bass Pro Shops,508-07,promotable
+BP-COOL-003,m.basspro.com,Bass Pro Shops Polar Cap Large Cooler,299.99,USD,/camping/coolers,Bass Pro Shops,508-01,promotable
+BP-COOL-004,m.basspro.com,Bass Pro Shops The Big Bobber Floating Cooler,49.99,USD,/camping/coolers,Bass Pro Shops,508-02,promotable
+BP-COOL-005,m.basspro.com,YETI Tundra 45 Cooler,325.00,USD,/camping/coolers,YETI,508-03,
+BP-COOL-006,m.basspro.com,YETI Tundra Haul Wheeled Cooler,450.00,USD,/camping/coolers,YETI,508-04,
+BP-COOL-007,m.basspro.com,Igloo Thermoelectric IE 42 Roller Cooler,249.99,USD,/camping/coolers,Igloo,508-05,promotable
+BP-COOL-008,m.basspro.com,YETI Tundra 35 Cooler,295.00,USD,/camping/coolers,YETI,508-06,
+BP-COOL-009,m.basspro.com,Igloo Polar 120 Cooler,99.99,USD,/camping/coolers,Igloo,508-07,promotable
+BP-CAMP-008,m.basspro.com,Stanley Classic Vacuum Bottle 1.5qt,39.99,USD,/camping/drinkware,Stanley,504-04,promotable
+BP-CAMP-031,m.basspro.com,UST BlastMatch Fire Starter,14.99,USD,/camping/fire-starting,UST,507-07,promotable
+BP-CAMP-007,m.basspro.com,Ascend H10 Sit-In Kayak,399.99,USD,/camping/kayaks,Ascend,503-03,promotable
+BP-CAMP-005,m.basspro.com,Coleman Quad LED Lantern,29.99,USD,/camping/lighting,Coleman,501-01,clearance
+BP-CAMP-026,m.basspro.com,Black Diamond Spot 400 Headlamp,24.99,USD,/camping/lighting,Black Diamond,501-02,promotable
+BP-CAMP-027,m.basspro.com,Luci Solar Inflatable String Lights,19.99,USD,/camping/lighting,Luci,501-03,promotable
+BP-CAMP-030,m.basspro.com,Adventure Medical Kits Ultralight First Aid Kit,19.99,USD,/camping/safety,Adventure Medical Kits,506-06,promotable
+BP-SLEEP-001,m.basspro.com,Cabela's Mountain Trapper 0°F Sleeping Bag,139.99,USD,/camping/sleeping-bags,Cabela's,510-03,promotable
+BP-SLEEP-002,m.basspro.com,ActionHeat 5V Battery-Heated Sleeping Bag,199.99,USD,/camping/sleeping-bags,ActionHeat,510-04,promotable
+BP-SLEEP-003,m.basspro.com,Bass Pro Shops 30° Rectangular Sleeping Bag For Kids,29.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-05,promotable
+BP-SLEEP-004,m.basspro.com,Bass Pro Shops 0° Canvas Rectangular Sleeping Bag,89.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-06,promotable
+BP-SLEEP-005,m.basspro.com,TETON Sports Fahrenheit 20°F Mammoth Double Sleeping Bag,199.99,USD,/camping/sleeping-bags,TETON Sports,510-07,promotable
+BP-SLEEP-006,m.basspro.com,Ascend Tsunami 0° Mummy Sleeping Bag,119.99,USD,/camping/sleeping-bags,Ascend,510-01,promotable
+BP-SLEEP-007,m.basspro.com,Kelty Mistral 20°F Mummy Sleeping Bag,79.95,USD,/camping/sleeping-bags,Kelty,510-02,promotable
+BP-SLEEP-008,m.basspro.com,Bass Pro Shops 30° Mummy Sleeping Bag For Kids,39.99,USD,/camping/sleeping-bags,Bass Pro Shops,510-03,promotable
+BP-SLEEP-009,m.basspro.com,Cabela's Outfitter XL -20°F Rectangular Sleeping Bag,169.99,USD,/camping/sleeping-bags,Cabela's,510-04,promotable
+BP-CAMP-015,m.basspro.com,Ozark Trail Foam Sleeping Pad,29.99,USD,/camping/sleeping-pads,Bass Pro Shops,505-01,promotable
+BP-CAMP-016,m.basspro.com,Cabelas Outfitter XL Self-Inflating Sleeping Pad,69.99,USD,/camping/sleeping-pads,Cabela's,505-02,promotable
+BP-CAMP-017,m.basspro.com,Ascend Stratus Insulated Air Sleeping Pad,129.99,USD,/camping/sleeping-pads,Ascend,505-03,promotable
+BP-CAMP-032,m.basspro.com,Therm-a-Rest Compressible Camp Pillow,24.99,USD,/camping/sleeping-pads,Therm-a-Rest,505-01,promotable
+BP-TENT-002,m.basspro.com,Cabela's Alaskan Guide Model Geodesic 8-Person Tent,599.99,USD,/camping/tents,Cabela's,509-02,promotable
+BP-TENT-004,m.basspro.com,Core Equipment 11-Person Cabin Tent With Screen Room,339.99,USD,/camping/tents,Core Equipment,509-04,promotable
+BP-TENT-006,m.basspro.com,Bass Pro Shops 1-Person Scout Tent,29.99,USD,/camping/tents,Bass Pro Shops,509-06,promotable
+BP-TENT-007,m.basspro.com,White Duck Outdoors Regatta 13' Water-Repellent Bell Tent,770.00,USD,/camping/tents,White Duck Outdoors,509-07,promotable
+BP-TENT-008,m.basspro.com,Kodiak Canvas Stove-Ready 8-Person 12x12 Cabin Lodge Tent,999.99,USD,/camping/tents,Kodiak Canvas,509-01,promotable
+OTHER-0001,m.basspro.com,"Tent footprint, 2-person",20.00,USD,/camping/tents,Bass Pro Shops,500-01,promotable
+BP-FISH-026,m.basspro.com,Bass Pro Shops Stainless Steel Fishing Pliers,14.99,USD,/fishing/accessories,Bass Pro Shops,342-01,clearance
+BP-BOAT-006,m.basspro.com,Bass Pro Shops Tourney Special Baitcast Combo,79.99,USD,/fishing/combos,Bass Pro Shops,321-04,promotable
+BP-FISH-015,m.basspro.com,Johnny Morris Carbonlite 2.0 Baitcasting Combo,199.99,USD,/fishing/combos,Bass Pro Shops,321-05,promotable
+BP-FISH-017,m.basspro.com,Bass Pro Shops Kids Beginner Spincast Combo,29.99,USD,/fishing/combos,Bass Pro Shops,321-03,promotable
+BP-FISH-013,m.basspro.com,Lowrance HOOK Reveal 7 Fish Finder,449.99,USD,/fishing/electronics,Lowrance,350-03,
+BP-FLY-011,m.basspro.com,White River Fly Shop 12-Piece Classic Trout Fly Assortment,19.99,USD,/fishing/fly-accessories,White River Fly Shop,341-06,promotable
+BP-FLY-012,m.basspro.com,White River Fly Shop Pre-Looped Trout Tapered Leader,9.99,USD,/fishing/fly-accessories,White River Fly Shop,341-07,promotable
+BP-FLY-013,m.basspro.com,White River Fly Shop Deluxe Fly-Tying Kit With Case,69.99,USD,/fishing/fly-accessories,White River Fly Shop,341-01,promotable
+BP-FLY-015,m.basspro.com,White River Fly Shop Prestige Rubber Bag Trout Net,59.99,USD,/fishing/fly-accessories,White River Fly Shop,341-03,promotable
+BP-FLY-010,m.basspro.com,White River Fly Shop Riseform Fly Combo,99.99,USD,/fishing/fly-combos,White River Fly Shop,322-05,promotable
+BP-FLY-014,m.basspro.com,White River Fly Shop Prestige Fly Combo,159.99,USD,/fishing/fly-combos,White River Fly Shop,322-02,promotable
+BP-FISH-005,m.basspro.com,Berkley Trilene XL Monofilament Line,6.99,USD,/fishing/line,Berkley,340-05,promotable
+BP-FISH-006,m.basspro.com,PowerPro Spectra Braided Line,19.99,USD,/fishing/line,PowerPro,340-06,promotable
+BP-FISH-021,m.basspro.com,Seaguar Red Label Fluorocarbon Line,12.99,USD,/fishing/line,Seaguar,340-07,promotable
+LINE-0550,m.basspro.com,"Braided line, 30 lb, 150 yd",24.99,USD,/fishing/line,PowerPro,340-01,promotable
+BP-LURE-001,m.basspro.com,Bass Pro Shops XPS Swerve Glide Brushtail Swimbait,18.99,USD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-002,m.basspro.com,Bass Pro Shops Tourney Special 8-Piece Lure Kit,19.99,USD,/fishing/lures,Bass Pro Shops,330-05,promotable
+BP-LURE-003,m.basspro.com,Bass Pro Shops Go-To Swim Minnow,4.99,USD,/fishing/lures,Bass Pro Shops,330-06,promotable
+BP-LURE-005,m.basspro.com,XPS Urch-X,9.99,USD,/fishing/lures,Bass Pro Shops,330-01,promotable
+BP-LURE-006,m.basspro.com,XPS Creature Kit,29.99,USD,/fishing/lures,Bass Pro Shops,330-02,promotable
+BP-LURE-007,m.basspro.com,Bass Pro Shops XPS Rattle Shad Kit,24.99,USD,/fishing/lures,Bass Pro Shops,330-03,promotable
+BP-LURE-008,m.basspro.com,Bass Pro Shops Ribbontail Worm,4.99,USD,/fishing/lures,Bass Pro Shops,330-04,promotable
+BP-LURE-009,m.basspro.com,Bass Pro Shops Dressed Casting Spoon,5.99,USD,/fishing/lures,Bass Pro Shops,330-05,promotable
+LURE-0310,m.basspro.com,"Soft plastic swimbait, 5-pack",9.99,USD,/fishing/lures,Berkley,330-01,promotable
+LURE-0420,m.basspro.com,"Soft plastic worms, 10-pack",6.49,USD,/fishing/lures,Bass Pro Shops,330-02,clearance
+BP-FISH-002,m.basspro.com,Shimano Stradic FL 2500 Spinning Reel,219.99,USD,/fishing/reels,Shimano,320-02,promotable
+BP-FISH-003,m.basspro.com,Abu Garcia Revo X Baitcasting Reel,99.99,USD,/fishing/reels,Abu Garcia,320-03,promotable
+BP-FISH-019,m.basspro.com,Bass Pro Shops Micro Lite Spinning Reel,29.99,USD,/fishing/reels,Bass Pro Shops,320-05,promotable
+BP-FISH-020,m.basspro.com,Pflueger President XT Spinning Reel,59.99,USD,/fishing/reels,Pflueger,320-06,promotable
+REEL-2040,m.basspro.com,"Spinning reel, 3000 size",79.99,USD,/fishing/reels,Shimano,320-01,promotable
+BP-FISH-004,m.basspro.com,St. Croix Bass X Casting Rod,129.99,USD,/fishing/rods/casting,St. Croix,310-04,promotable
+ROD-1002,m.basspro.com,"Casting rod, 6 ft 6 in",119.99,USD,/fishing/rods/casting,Bass Pro Shops,310-14,promotable
+BP-FLY-001,m.basspro.com,White River Fly Shop CGR Fiberglass Fly Rod,89.99,USD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-002,m.basspro.com,White River Fly Shop Riseform Fly Rod,69.99,USD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FLY-003,m.basspro.com,White River Fly Shop Prestige Fly Rod,99.99,USD,/fishing/rods/fly,White River Fly Shop,311-05,promotable
+BP-FLY-004,m.basspro.com,World Wide Sportsman Deceiver Fly Rod,99.99,USD,/fishing/rods/fly,World Wide Sportsman,311-06,promotable
+BP-FLY-005,m.basspro.com,World Wide Sportsman Gold Cup Fly Rod,219.99,USD,/fishing/rods/fly,World Wide Sportsman,311-07,promotable
+BP-FLY-006,m.basspro.com,White River Fly Shop Heat Fly Rod,119.99,USD,/fishing/rods/fly,White River Fly Shop,311-01,promotable
+BP-FLY-007,m.basspro.com,World Wide Sportsman Landmark Fly Rod,219.99,USD,/fishing/rods/fly,World Wide Sportsman,311-02,promotable
+BP-FLY-008,m.basspro.com,White River Fly Shop Vanguard Fly Rod,149.99,USD,/fishing/rods/fly,White River Fly Shop,311-03,promotable
+BP-FLY-009,m.basspro.com,White River Fly Shop Vanguard Fly Combo,269.99,USD,/fishing/rods/fly,White River Fly Shop,311-04,promotable
+BP-FISH-001,m.basspro.com,Ugly Stik GX2 Spinning Rod,32.99,USD,/fishing/rods/spinning,Shakespeare,310-01,clearance
+BP-FISH-016,m.basspro.com,Shakespeare Micro Series Ultralight Spinning Rod,49.99,USD,/fishing/rods/spinning,Shakespeare,310-02,promotable
+BP-FISH-018,m.basspro.com,Penn Battalion II Surf Spinning Rod,109.99,USD,/fishing/rods/spinning,Penn,310-04,promotable
+ROD-1001,m.basspro.com,"Spinning rod, 7 ft",129.99,USD,/fishing/rods/spinning,Bass Pro Shops,310-12,promotable
+BP-FISH-010,m.basspro.com,Plano Guide Series 3700 Tackle Bag,49.99,USD,/fishing/tackle-storage,Plano,343-07,clearance
+BP-FISH-014,m.basspro.com,Simms Freestone Stockingfoot Waders,249.99,USD,/fishing/waders,Simms,360-04,promotable
+GIFT-0001,m.basspro.com,Logo can cooler,4.99,USD,/gifts/promotional,Bass Pro Shops,900-01,promotable
+BP-HUNT-004,m.basspro.com,Winchester .30-06 Springfield 150gr Power-Point,29.99,USD,/hunting/ammunition,Winchester,401-07,
+BP-ARCH-001,m.basspro.com,BlackOut 5-Pin Bow Sight With React Technology,109.99,USD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-002,m.basspro.com,BlackOut Bow Stabilizer,54.99,USD,/hunting/archery-accessories,BlackOut,409-01,promotable
+BP-ARCH-003,m.basspro.com,Q.A.D. ULTRAREST Hunter Arrow Rest,69.99,USD,/hunting/archery-accessories,Q.A.D.,409-02,promotable
+BP-ARCH-004,m.basspro.com,Trophy Ridge Hex Light Quiver,99.99,USD,/hunting/archery-accessories,Trophy Ridge,409-03,promotable
+BP-ARCH-005,m.basspro.com,BlackOut Whisker Biscuit Arrow Rest,39.99,USD,/hunting/archery-accessories,BlackOut,409-04,promotable
+BP-ARCH-006,m.basspro.com,Pine Ridge Archery Big Gripper Arrow Puller,12.99,USD,/hunting/archery-accessories,Pine Ridge Archery,409-05,promotable
+BP-ARCH-007,m.basspro.com,BlackOut Mega Braid Bow Sling,21.99,USD,/hunting/archery-accessories,BlackOut,409-06,promotable
+BP-ARCH-008,m.basspro.com,BlackOut 5-Arrow Quiver,34.99,USD,/hunting/archery-accessories,BlackOut,409-07,promotable
+BP-ARCH-009,m.basspro.com,Trophy Ridge SWFT Single Pin Bow Sight,89.99,USD,/hunting/archery-accessories,Trophy Ridge,409-01,promotable
+BP-HUNT-008,m.basspro.com,Primos Hunting Double Bull SurroundView Blind,349.99,USD,/hunting/blinds,Primos,405-04,promotable
+BP-HUNT-009,m.basspro.com,RedHead Bone-Dry Insulated Rubber Boots,69.99,USD,/hunting/boots,RedHead,406-05,clearance
+BP-BOW-001,m.basspro.com,Bear Archery Legit NXT RTH Compound Bow Package,479.99,USD,/hunting/bows,Bear Archery,408-05,promotable
+BP-BOW-002,m.basspro.com,BlackOut NV-3 Compound Bow,799.99,USD,/hunting/bows,BlackOut,408-06,promotable
+BP-BOW-003,m.basspro.com,BlackOut Distinct XT Compound Bow Package,549.99,USD,/hunting/bows,BlackOut,408-07,promotable
+BP-BOW-004,m.basspro.com,Bear Archery Cruzer G3 Black RTH Compound Bow Package,319.97,USD,/hunting/bows,Bear Archery,408-01,promotable
+BP-BOW-005,m.basspro.com,Bear Archery Legend 30 RTH Compound Bow Package,499.97,USD,/hunting/bows,Bear Archery,408-02,promotable
+BP-BOW-007,m.basspro.com,Barnett XP400 Midnight Edition Crossbow Package With Crank Cocking Device,699.00,USD,/hunting/bows,Barnett,408-04,promotable
+BP-BOW-008,m.basspro.com,BlackOut Epic NT Compound Bow Package,649.99,USD,/hunting/bows,BlackOut,408-05,promotable
+BP-BOW-009,m.basspro.com,BlackOut Faze 2 Compound Bow Package,349.99,USD,/hunting/bows,BlackOut,408-06,promotable
+BP-HUNT-010,m.basspro.com,Hunters Specialties Strut Turkey Call Kit,34.99,USD,/hunting/calls-decoys,Hunters Specialties,407-06,promotable
+BP-HUNT-005,m.basspro.com,Leupold VX-3HD 3.5-10x40 Rifle Scope,449.99,USD,/hunting/optics,Leupold,402-01,promotable
+BP-HUNT-003,m.basspro.com,Browning X-Bolt Hunter Bolt-Action Rifle,899.99,USD,/hunting/rifles,Browning,400-06,
+BP-HUNT-007,m.basspro.com,Primos Proof Gen 2 Trail Camera,69.99,USD,/hunting/trail-cameras,Primos,404-03,promotable
+BP-HUNT-006,m.basspro.com,Muddy Nexus 20ft Ladder Treestand,159.99,USD,/hunting/treestands,Muddy,403-02,clearance
+TKY-2010,m.basspro.com,Box turkey call,34.99,USD,/hunting/turkey,Primos,430-01,promotable
+TKY-2020,m.basspro.com,Slate turkey call,29.99,USD,/hunting/turkey,Primos,430-02,promotable
+BP-BIKE-001,m.basspro.com,"Ascend Zion Hardtail 29"" Mountain Bike",499.99,USD,/outdoor-rec/bikes,Ascend,804-02,promotable
+BP-BIKE-002,m.basspro.com,Razor MX650 Dirt Rocket 36V Sport Electric Dirt Bike,899.99,USD,/outdoor-rec/bikes,Razor,804-03,promotable
+BP-BIKE-003,m.basspro.com,Razor MX125 Dirt Rocket Electric Bike For Kids,309.99,USD,/outdoor-rec/bikes,Razor,804-04,promotable
+BP-BIKE-004,m.basspro.com,"Mongoose Grafton 26"" Mountain Bike",329.99,USD,/outdoor-rec/bikes,Mongoose,804-05,promotable
+BP-OUTR-005,m.basspro.com,Cabela's Alaskan Guide Series Tent Cot,329.99,USD,/outdoor-rec/camp-bedding,Cabela's,803-07,promotable
+BP-OUTR-003,m.basspro.com,UCO Stormproof Match Kit,5.99,USD,/outdoor-rec/fire-starters,UCO,802-05,clearance
+BP-OUTR-002,m.basspro.com,Gerber StrongArm Fixed Blade Knife,59.99,USD,/outdoor-rec/knives,Gerber,801-04,promotable
+BP-OUTR-001,m.basspro.com,Leupold BX-4 Pro Guide HD 10x42 Binoculars,399.99,USD,/outdoor-rec/optics,Leupold,800-03,promotable
+BP-OUTR-004,m.basspro.com,Bushnell Forge 4.5-27x50 Riflescope,599.99,USD,/outdoor-rec/optics,Bushnell,800-06,promotable

@@ -31,6 +31,11 @@ REPO="${REPO:-beedev/bpe-deploy}"
 BRANCH="${BRANCH:-main}"
 DEFAULT_PORT=8380
 APP_PATH=/bpe
+# The services that bind-mount files from config/. Replacing config/ leaves a running container tied to the deleted files,
+# so an upgrade restarts these after the new config is in (scripts/check_install_mounts.py keeps this list in step with
+# docker-compose.yml).
+CONFIG_MOUNTS="keycloak storefront edge"
+config_replaced=false
 
 if [ -t 1 ] && [ -z "${NO_COLOR:-}" ]; then B=$'\033[1m'; G=$'\033[32m'; R=$'\033[31m'; Y=$'\033[33m'; N=$'\033[0m'; else B=''; G=''; R=''; Y=''; N=''; fi
 step() { printf '\n%s[%s]%s %s\n' "$B" "$1" "$N" "$2"; }
@@ -78,6 +83,7 @@ if [ -z "${NO_DOWNLOAD:-}" ]; then
     || die "Could not download https://github.com/$REPO ($BRANCH)."
   # Everything is replaced except your .env.
   rm -rf "$HOME_DIR/config"
+  config_replaced=true
   for item in config docker-compose.yml README.md install.sh; do cp -R "$tmp/$item" "$HOME_DIR/"; done
 fi
 [ -f "$HOME_DIR/docker-compose.yml" ] || die "$HOME_DIR has no docker-compose.yml."
@@ -192,6 +198,14 @@ docker compose up -d --wait --wait-timeout 900 || {
   docker compose ps -a
   die "Not every part became healthy. See which with 'docker compose ps -a' and why with 'docker compose logs <name>' (in $HOME_DIR); the demo data job is 'seed'."
 }
+if $config_replaced && [ "$running" != 0 ] && ! $fresh; then
+  # shellcheck disable=SC2086
+  docker compose up -d --no-deps --force-recreate --wait --wait-timeout 600 $CONFIG_MOUNTS || {
+    docker compose ps -a
+    die "Could not restart $CONFIG_MOUNTS on the new configuration. See 'docker compose logs <name>' (in $HOME_DIR)."
+  }
+  ok "$CONFIG_MOUNTS restarted on the new configuration"
+fi
 ok "all parts healthy, demo data in"
 
 # ---- 7. Done ---------------------------------------------------------------------------------------------------------------
